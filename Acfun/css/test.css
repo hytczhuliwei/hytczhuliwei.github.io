@@ -1,0 +1,12 @@
+/*/=测试旋转*/
+.test{width:100px; height:100px; border:1px solid #ccc; }
+.test i{width: 10px;height: 10px;display: block; transition:0.2s ease-out;background-image: url("images/20131224174700_CXfn4.png"); background-repeat: no-repeat; boder:1px solid #111;}
+.test:hover i{transform:rotateZ(-180deg);}
+
+
+.testHover{width:500px; height:400px;  border:1px solid #ccc;}
+.testHoverPDown{width:500px; height:200px;  border:1px solid #ccc; display: none; background-color: #111;}
+.testHoverPUp{width:500px; height:200px;  border:1px solid #ccc;}
+.testHoverP1{width:200px; height:200px; border:1px solid #ccc; float:left;}
+.testHoverP2{width:200px; height:200px; border:1px solid #ccc; float:right;}
+

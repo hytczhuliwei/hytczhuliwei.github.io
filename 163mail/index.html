@@ -1,0 +1,869 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta name="keywords" content="163,邮箱，网易，收件" />
+	<meta name="description" content="This is 163mail">
+	<meta name="author" content="by jing">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+	<title>163邮箱</title>
+</head>
+<body class="ua-notIE shiguangshalou1 ua-chrome frame-default frame-auto">
+	<header class="frame-head">
+		<div class="tY0">
+			<h1 class="tG0 sj0" id="h1Logo">
+				<div class="rP0">
+					<img src="images/163logo.gif" id="imgLogo">
+				</div>
+			</h1>
+			<ul id="_mail_component_3_3" class="js-component-component tO0">
+				<li id="_mail_component_5_5" class="js-component-component pR0">
+					<a class="js-component-component nui-txt-link kl0" id="_mail_component_1_1">
+						<span id="spnUid">awei_zlw@163.com</span>
+						<span id="_account_awei_zlw@163.com" class="hM0"></span>
+						<b class="js-component-icon kJ0 nui-ico nui-ico-dArr jL1" id="_mail_icon_0_0"></b>
+					</a>
+				</li>
+				<li class="rZ0 pn1">|</li>
+				<li class="rZ0 hj1">
+					<div id="dvYixinWrapper" class="lP1 nui-fIBlock hj1">
+						<div id="dvYixinText">
+							<span class="yixinicon">
+								<span>易信</span>
+							</span>
+						</div>
+					</div>
+				</li>
+				<li class="js-component-component rZ0 pn1">|</li>
+				<li id="_mail_component_9_9" class="js-component-component rZ0">
+					<a class="sh0 nui-txt-link">设置</a>
+				</li>
+				<li class="js-component-component rZ0 pn1">|</li>
+				<li id="_mail_component_14_14" class="js-component-component rZ0">
+					<a class="sh0 nui-txt-link">帮助</a>
+				</li>
+				<li class="js-component-component rZ0 pn1">|</li>
+				<li id="_mail_component_19_19" class="js-component-component rZ0">
+					<a class="sh0 nui-txt-link">手机版</a>
+				</li>
+				<li class="js-component-component rZ0 pn1">|</li>
+				<li id="_mail_component_23_23" class="js-component-component rZ0">
+					<a class="sh0 nui-txt-link">退出</a>
+				</li>
+			</ul>
+			<div id="_mail_component_103_103" class="js-component-component sU0">
+				<b class="ru0"></b>
+				<b class="kk0 fn-bg nui-ico"></b>
+				<div id="_mail_input_0_105" class="js-component-input nui-ipt">
+					<input class="nui-ipt-input" type="text" placeHolder="支持邮件全文搜索">
+				</div>
+				<a class="js-component-link md0 " hidefocus="hidefocus" id="_mail_link_0_106">
+					<b class="js-component-icon fn-bg nui-ico " id="_mail_icon_14_107"></b>
+				</a>
+			</div>
+		</div>
+		<nav class="tV0" id="dvMultiTabWrapper">
+			<div id="dvMultiTab" class="wo0">
+				<h1 class="sZ0">邮箱选项卡</h1>
+				<ul id="_mail_tab_0_25" class="js-component-tab tz0 nui-tabs ">
+					<li id="_mail_tabitem_0_26" class="js-component-tabitem tA0 oZ0 nui-tabs-item qv0">
+						<div class="kA0"></div>
+						<div class="mE0"></div>
+						<div class="nui-tabs-item-text nui-fNoSelect" unselected="on">首页</div>
+					</li>
+					<li id="_mail_tabitem_1_27" class="js-component-tabitem tA0 oZ0 nui-tabs-item qv0">
+						<div class="kA0"></div>
+						<div class="mE0"></div>
+						<div class="nui-tabs-item-text nui-fNoSelect" unselected="on">通讯录</div>
+					</li>
+					<li id="_mail_tabitem_2_28" class="js-component-tabitem tA0 oZ0 nui-tabs-item qv0">
+						<div class="kA0"></div>
+						<div class="mE0"></div>
+						<div class="nui-tabs-item-text nui-fNoSelect" unselected="on">应用中心</div>
+					</li>
+					<li id="_mail_tabitem_7_253" class="js-component-tabitem tA0 oZ0 nui-tabs-item qv0 nui-tabs-item-selected">
+						<div class="nui-tabs-item-text nui-fNoSelect"unselected="off">收件箱</div>
+					</li>
+					<li id="_mail_tabitem_4_30" class="js-component-tabitem tA0 rC0 nui-tabs-item" style="width:27px;">
+						<b class="js-component-icon fn-bg nui-ico nui-ico-dArr" id="_mail_icon_1_31"></b>
+					</li>
+				</ul>
+			</div>
+			<div id="dvPlugin_Music_Wrapper" class="APP-musicBox">
+				<img class="APP-musicBox-img" src="images/icn-pau.png" >
+			</div>
+		</nav>
+	</header>
+	<div class="frame-nav">
+		<nav class="frame-navInner">
+			<div class="dvNavTop">
+				<ul class="js-component-component dvNavTopul">
+					<li class="js-component-component dvNavTopli1" hidefocus="hidefocus">
+						<span class="dvNavTopliIcon">
+							<b class="nui-ico fn-bg hC0"></b>
+						</span>
+						<span class="dvNavTopliWord">收 信</span>
+					</li>
+					<li class="js-component-component dvNavTopli2" hidefocus="hidefocus">
+						<span class="dvNavTopliIcon">
+							<b class="nui-ico fn-bg ga0"></b>
+						</span>
+						<span class="dvNavTopliWord">写 信</span>
+					</li>
+				</ul>
+			</div>
+			<div class="dvNavDown nui-scroll oU0" id="dvNavTree">
+				<ul class="js-component-tree nui-tree" id="_mail_tree_36_276">
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label nui-tree-item-label-selected">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text" title="收件箱">收件箱</span>
+							<strong class="nui-tree-item-count " id="_mail_tree_37_277count">(10)</strong>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon">
+								<b class="js-component-icon nv1 nui-ico nui-ico-flag  nui-ico-flag-1"></b>
+							</span>
+							<span class="nui-tree-item-text">红旗邮件</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon">
+								<b class="js-component-icon nw1 nui-ico nui-ico-todo  nui-ico-todo-transparent"></b>
+							</span>
+							<span class="nui-tree-item-text">待办邮件</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon">
+								<b class="js-component-icon lt1 nui-ico nui-ico-contacter  nui-ico-contacter-fold"></b>
+							</span>
+							<span class="nui-tree-item-text">联系人邮件</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">草稿箱</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">已发送</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">已删除</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item" style="display:none;">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">订阅邮件</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item" style="display:none;">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">广告邮件</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item" style="display:none;">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">垃圾邮件</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item nui-tree-item-isFold">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-symbol">
+								<b class="nui-tree-item-symbol-fold nui-ico nui-ico-rArr fn-bg"></b>
+							</span>
+							<span class="nui-tree-item-text">
+								<span id="spnHideFolders">&nbsp;其他3个文件夹</span>
+							</span>
+							<span class="nui-tree-item-ext">
+								<b class="js-component-icon rS0 nui-ico" title="新建文件夹"></b>
+								<b class="js-component-icon qE0 nui-ico" title="管理文件夹"></b>
+							</span>
+						</div>
+						<ul class="nui-tree" style="height:0; opacity:0; display:none;">
+							<li class="js-component-tree nui-tree-item" style="display:none;">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon">
+										<b class="js-component-icon nv1 nui-ico nui-ico-flag  nui-ico-flag-1"></b>
+									</span>
+									<span class="nui-tree-item-text">红旗邮件</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item" style="display:none;">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon">
+										<b class="js-component-icon nw1 nui-ico nui-ico-todo  nui-ico-todo-transparent"></b>
+									</span>
+									<span class="nui-tree-item-text">待办邮件</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item" style="display:none;">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon">
+										<b class="js-component-icon lt1 nui-ico nui-ico-contacter  nui-ico-contacter-fold"></b>
+									</span>
+									<span class="nui-tree-item-text">联系人邮件</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item" style="display:none;">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon"></span>
+									<span class="nui-tree-item-text">草稿箱</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item" style="display:none;">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon"></span>
+									<span class="nui-tree-item-text">已发送</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item" style="display:none;">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon"></span>
+									<span class="nui-tree-item-text">已删除</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon"></span>
+									<span class="nui-tree-item-text">订阅邮件</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon"></span>
+									<span class="nui-tree-item-text">广告邮件</span>
+								</div>
+							</li>
+							<li class="js-component-tree nui-tree-item">
+								<div class="js-component-component nui-tree-item-label">
+									<span class="nui-tree-item-inlineIcon"></span>
+									<span class="nui-tree-item-text">垃圾邮件</span>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="js-component-tree vm0 nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">邮件标签</span>
+							<span class="nui-tree-item-ext">
+								<b class="js-component-icon rS0 nui-ico" title="添加标签"></b>
+								<b class="js-component-icon qE0 nui-ico" title="管理标签"></b>
+							</span>
+						</div>
+					</li>
+					<li class="js-component-tree vm0 nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">邮箱中心</span>
+							<span class="nui-tree-item-ext">
+								<b class="js-component-icon qp0 nui-ico" title="收取全部邮箱的邮件"></b>
+								<b class="js-component-icon rS0 nui-ico" title="迁移其他邮箱"></b>
+								<b class="js-component-icon qE0 nui-ico" title="管理邮箱中心"></b>
+							</span>
+						</div>
+					</li>
+					<li class="js-component-tree nui-tree-item">
+						<div class="js-component-component nui-tree-item-label">
+							<span class="nui-tree-item-inlineIcon"></span>
+							<span class="nui-tree-item-text">附件图集</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="frame-main-outer">
+		<div id="dvContainer">
+			<div class="tX0 frame-main">
+				<header class="frame-main-cont-head">
+					<div class="js-component-toolbar nui-toolbar ">
+						<div class="nui-toolbar-item">
+							<div class="js-component-button nui-dropdownBtn nui-btn nui-btn-hasOnlyIcon nui-dropdownBtn-hasOnlyIcon ">
+								<span class="nui-btn-icon">
+									<span class="nui-chk js-component-checkbox-dc">
+										<span class="nui-chk-symbol">
+											<b class="js-component-icon nui-ico nui-ico-checkbox"></b>
+										</span>
+									</span>
+								</span>
+								<span class="nui-btn-text"></span>
+								<span class="nui-dropdownBtn-arr">
+									<b class="nui-ico nui-ico-dArr"></b>
+								</span>
+							</div>
+						</div>
+						<div class="nui-toolbar-item">
+							<div class="js-component-button nui-btn nui-btn-delete">
+								<span class="nui-btn-text">删 除</span>
+							</div>
+						</div>
+						<div class="nui-toolbar-item">
+							<div class="js-component-button nui-btn">
+								<span class="nui-btn-text">举 报</span>
+							</div>
+						</div>
+						<div class="nui-toolbar-item">
+							<div class="js-component-button nui-dropdownBtn nui-btn">
+								<span class="nui-btn-text">标记为</span>
+								<span class="nui-dropdownBtn-arr">
+									<b class="nui-ico nui-ico-dArr"></b>
+								</span>
+							</div>
+							<div class="js-component-menu nui-menu nui-tagmenu" style="visibility: hidden; left: 183px; top: 37px;">
+								<div class="js-component-menuitem nui-menu-item ">
+									<div class="nui-menu-item-link setRead">
+										<span class="nui-menu-item-text">已读</span>
+									</div>
+								</div>
+								<div class="js-component-menuitem nui-menu-item ">
+									<div class="nui-menu-item-link setUnread">
+										<span class="nui-menu-item-icon">
+											<b class="js-component-icon nui-ico nui-ico-unread  "></b>
+										</span>
+										<span class="nui-menu-item-text">未读</span>
+									</div>
+								</div>
+								<div class="js-component-menuitem nui-menu-item ">
+									<div class="nui-menu-item-link allSetread">
+										<span class="nui-menu-item-text">全部设为已读</span>
+									</div>
+								</div>
+								<div class="nui-menu-split nui-split"></div>
+								<div class="js-component-menuitem txt-flag1 nui-menu-item ">
+									<div class="nui-menu-item-link setRedflag">
+										<span class="nui-menu-item-icon">
+											<b class="js-component-icon nui-ico nui-ico-flag  nui-ico-flag-1"></b>
+										</span>
+										<span class="nui-menu-item-text">红旗</span>
+									</div>
+								</div>
+							</div>
+							<div class="js-component-button nui-dropdownBtn nui-btn">
+								<span class="nui-btn-text">移动到</span>
+								<span class="nui-dropdownBtn-arr">
+									<b class="nui-ico nui-ico-dArr"></b>
+								</span>
+							</div>
+							<div class="js-component-button nui-dropdownBtn nui-btn">
+								<span class="nui-btn-text">更多</span>
+								<span class="nui-dropdownBtn-arr">
+									<b class="nui-ico nui-ico-dArr"></b>
+								</span>
+							</div>
+						</div>
+						<div class="nui-toolbar-item">
+							<div class="js-component-button nui-btn">
+								<span class="nui-btn-text">刷 新</span>
+							</div>
+						</div>
+						<div class="nui-toolbar-ext">
+							<div class="nui-toolbar-item">
+								<div class="js-component-calendar nui-calendar">
+									<b class="nui-ico nui-ico-calendar"></b>
+								</div>
+							</div>
+							<div class="nui-toolbar-item">
+								<div class="js-component-select nui-simpleSelect nui-select ">
+									<span class="nui-select-text">1/1</span>
+									<span class="nui-select-arr">
+										<b class="nui-ico nui-ico-dArr"></b>
+									</span>
+								</div>
+							</div>
+							<div class="nui-toolbar-item">
+								<div class="js-component-button nui-roundBtn nui-btn nui-btn-hasIcon nui-roundBtn-hasIcon  nui-btn-disabled nui-roundBtn-disabled " title="上一页">
+									<span class="nui-btn-icon">
+										<b class="js-component-icon nui-ico nui-ico-prev "></b>
+									</span>
+									<span class="nui-btn-text"></span>
+								</div>
+								<div class="js-component-button nui-roundBtn nui-btn nui-btn-hasIcon nui-roundBtn-hasIcon  nui-btn-disabled nui-roundBtn-disabled" title="下一页">
+									<span class="nui-btn-icon">
+										<b class="js-component-icon nui-ico nui-ico-next"></b>
+									</span>
+									<span class="nui-btn-text"></span>
+								</div>
+							</div>
+							<div class="nui-toolbar-item">
+								<div class="js-component-button nui-roundBtn nui-btn nui-btn-hasIcon nui-roundBtn-hasIcon nui-roundBtn-setting" title="设置">
+									<span class="nui-btn-icon">
+										<b class="js-component-icon nui-ico nui-ico-setting"></b>
+									</span>
+									<span class="nui-btn-text"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="frame-main-cont-body nui-scroll frame-main-cont-body-first">
+					<div class="tc0  ts1 ">
+						<div class="tb0">
+							<div class="js-component-title nui-title">
+								<span class="nui-title-tips nui-txt-tips">
+									<a class="nui-txt-link js-component-link " title="点击查看未读邮件">
+										有
+										<strong>10</strong>
+										封未读
+									</a>
+									<a class="nui-txt-link js-component-link text_allRead">全部设为已读</a>
+								</span>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易邮件中心</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">[网易更新通知] 邮箱官方博客栏目有更新 2014-08-24</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易彩票</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">【网易推荐】下载彩票客户端，送118元世界杯彩票！</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易邮件中心</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">2014，我们一起守望春天，网易邮箱祝您新春快乐！</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">Microsoft 帐户团队</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">验证你的电子邮件地址</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易邮件中心</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">网易邮箱岁末大回馈，iPhone、iPad免费领取！</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易邮件中心</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">【通知】您的积分将于2013年底折半，快用积分抢土豪金!</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易通行证</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">网易通行证异常登录提醒</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易通行证</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">网易通行证异常登录提醒</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易邮件中心</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">[网易更新通知] 邮箱官方博客栏目有更新 2014-08-24</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tv01">
+							<div class="rF0 kw0 nui-txt-flag0">
+								<div class="nl0 hA0 ck0">
+									<div class="gB0">
+										<label class="nui-chk cS0" title="选中此邮件">
+											<span class="nui-chk-symbol">
+												<b class="nui-ico nui-ico-checkbox"></b>
+											</span>
+										</label>
+										<b class="dT0 nui-ico nui-ico-unread" title="未读"></b>
+										<div class="dP0">
+											<span class="nui-user ci0">网易邮件中心</span>
+										</div>
+										<b class="cC0 nui-ico nui-ico-smartTrash" title="点击删除邮件">
+											<b class="nui-ico nui-ico-smartTrash-head"></b>
+											<b class="nui-ico nui-ico-smartTrash-body"></b>
+										</b>
+										<div class="dU0" title="设为红旗">
+											<b class="nui-ico nui-ico-flag nui-ico-flag-0"></b>
+										</div>
+									</div>
+									<div class="il0">
+										<span class="da0">[网易更新通知] 邮箱官方博客栏目有更新 2014-08-24</span>
+									</div>
+									<div class="hV0">
+										<div class="es0" title="邮件大小为8.8K">8.8K</div>
+										<div class="eO0" title="2014年8月24日 05:08 (星期日)">8月24日</div>
+										<div class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon cT0" title="设置待办">
+											<span class="nui-btn-icon">
+												<b id="fly1" class="js-component-icon nui-ico nui-ico-todo  "></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+										<div id="_mail_button_13_204" class="js-component-button nui-miniBtn nui-btn nui-btn-hasIcon nui-miniBtn-hasIcon dK0" title="选择邮件标签">
+											<span class="nui-btn-icon">
+												<b id="fly2" class="js-component-icon nui-ico nui-ico-tags"></b>
+											</span>
+											<span class="nui-btn-text"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

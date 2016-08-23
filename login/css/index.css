@@ -1,0 +1,21 @@
+
+.user{width: 900px; height: auto; margin: 0 auto;}
+.userInfo{width: auto; min-width: 400px; height: auto; border:1px solid #ccc;float: left;}
+.userInfoItem{width: auto; min-width: 360px; height: 50px;border-bottom:1px solid #ccc; padding: 10px 20px;}
+.userInfo_userName{width: 50px; height: 100%;font-size: 30px; line-height: 50px; color: #000; display: block;float: left; text-align: right;}
+.userInfo_userAge{width: auto; min-width: 100px; height: 100%; font-size: 30px; line-height: 50px; color: #000; display: block;float: left; text-align: center;}
+.userInfo_userName img{width: 50px; height: 50px; float: right;}
+
+.addUser{width: 300px; height: 200px; float: left; border: 1px solid #ccc; margin-left: 90px;}
+.addUser li{width: 260px; height: 40px; list-style: none; padding: 5px 10px;}
+.addUser li input{width: 240px; height: 30px;outline: none; }
+.addUserBtn{margin-left: 80px; width: 70px; height: 20px;color: #fff;font-weight: bold; background-color: #36DAE2; cursor: pointer; border-radius: 8px; text-align: center;padding: 5px 0;}
+
+
+
+
+
+
+
+
+

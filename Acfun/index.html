@@ -1,0 +1,2774 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="content-Type" content="text/html" charset="utf-8">
+	<meta name="keywords" content="视频,ac,弹幕,交流,二次元" />
+	<meta name="description" content="This is acfun web">
+	<meta name="author" content="by jing">
+
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/indes.js"></script>
+	<title>Acfun弹幕视频网</title>
+</head>
+<body>
+	<div id="toTopContainer">
+		<div class="toTop"></div>
+	</div>
+	<!-- 搜索栏，个人信息区 -->
+	<div id="guideHeaderbg">
+		<div id="guideMainArea">
+			<a href="#" id="guide_Logo"></a>
+			<div id="guide_Search">
+				<input type="text" placeHolder="评论才是本体" class="searchBar">
+				<div class="searchButton"></div>
+			</div>
+			<div id="guide_userArea">
+				<div id="guide_history" class="guide_user history">
+					<div class="icon historyIcon"></div>
+					<p>看过</p>
+				</div>
+				<div id="guide_post" class="guide_user post">
+					<div class="icon postIcon"></div>
+					<p>投稿</p>
+				</div>
+				<div id="guide_favor" class="guide_user">
+					<div class="icon favorIcon"></div>
+					<p>收藏</p>
+				</div>
+				<div id="guide_login" class="guide_user">
+					<div class="icon loginIcon"></div>
+					<p>登录/注册</p>
+				</div>
+				<div id="guide_avatarArea" class="avatar">
+					<a id="guide_avatar"></a>
+					<p class="rightTop">2</p>
+				</div>
+			</div>
+			<div id="guide_historyArea" class="guide_Content history" >
+				<div class="guide_historyContent">
+					<div class="unit">
+						<a href="#" class="guide_Title">美国队长2-冬日战士 (2014)【1080P】</a>
+						<span class="guide_desc">浏览于8月4日(星期一) 22时09分</span>
+					</div>
+					<div class="unit">
+						<a href="#" class="guide_Title">AcFun无聊大作战作品推荐Ep.1</a>
+						<span class="guide_desc">浏览于昨天 21时35分</span>
+					</div>
+					<div class="unit">
+						<a href="#" class="guide_Title">乌克兰议会上爆发拳脚冲突 一副名画就这么诞生了</a>
+						<span class="guide_desc">浏览于8月4日(星期一) 19时09分</span>
+					</div>
+				</div>
+				<div class="tail"></div>
+				<div class="choseMore">
+					<a href="#" class="choseMoreWords">查看更多</a>
+				</div>
+			</div>
+			<div id="guide_postArea" class="guide_Content post">
+				<div class="unit">投视频</div>
+				<div class="unit">投文章</div>
+				<div class="tail"></div>
+			</div>
+			<div id="guide_userAva" class="guide_Content avatar">
+				<div class="personInfo">
+					<a href="#" class="personInfoLeft">阿井</a>
+					<div class="personInfoRight">
+						<div class="icon"></div>
+						<span class="guide_desc">退出登录</span>
+					</div>
+				</div>	
+				<div class="unit">
+					<div class="icon"></div>
+					<span class="guide_desc">您有2条新推送</span>
+				</div>
+				<div class="tail"></div>
+				<div class="choseMore">
+					<a href="#" class="choseMoreWords">查看更多</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<!-- 导航栏 -->
+	<div id="nav">
+		<div id="navLeft">
+			<a href="#" class="firstNav">首页</a>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					动画
+				</a>	
+				<div class="channel anime">
+					<a href="#" class="navWords">国产动画</a>
+					<a href="#" class="navWords">动画短片</a>
+					<a href="#" class="navWords">MAD·AMV</a>
+					<a href="#" class="navWords">MMD·3D</a>
+					<a href="#" class="navWords">新番连载</a>
+					<a href="#" class="navWords">旧番补档</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">EVA：恋</a>
+					<a href="#" class="navWords specialNavWords">幸运星</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					音乐
+				</a>	
+				<div class="channel music">
+					<a href="#" class="navWords">演唱·乐器</a>
+					<a href="#" class="navWords">宅舞</a>
+					<a href="#" class="navWords">Vocaloid</a>
+					<a href="#" class="navWords">流行音乐</a>
+					<a href="#" class="navWords">ACG音乐</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">V家神曲合唱精选</a>
+					<a href="#" class="navWords specialNavWords">日本公信榜单曲月榜</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					游戏
+				</a>	
+				<div class="channel game">
+					<a href="#" class="navWords">游戏集锦</a>
+					<a href="#" class="navWords">实况解说</a>
+					<a href="#" class="navWords">Flash游戏</a>
+					<a href="#" class="navWords">Mugen</a>
+					<a href="#" class="navWords">英雄联盟</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">无聊大作战</a>
+					<a href="#" class="navWords specialNavWords">红白机之歌</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					娱乐
+				</a>	
+				<div class="channel joy">
+					<a href="#" class="navWords">生活娱乐</a>
+					<a href="#" class="navWords">鬼畜调教</a>
+					<a href="#" class="navWords">萌宠</a>
+					<a href="#" class="navWords">美食</a>
+					<a href="#" class="navWords">原创网络剧</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">少主高达</a>
+					<a href="#" class="navWords specialNavWords">葛平</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					科技
+				</a>	
+				<div class="channel science">
+					<a href="#" class="navWords">科学技术</a>
+					<a href="#" class="navWords">数码</a>
+					<a href="#" class="navWords">军事</a>
+					<a href="#" class="navWords">汽车</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">教程</a>
+					<a href="#" class="navWords specialNavWords">军情解码</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					体育
+				</a>	
+				<div class="channel physical">
+					<a href="#" class="navWords">惊奇体育</a>
+					<a href="#" class="navWords">足球</a>
+					<a href="#" class="navWords">篮球</a>
+					<a href="#" class="navWords">MMD·3D</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">跑酷</a>
+					<a href="#" class="navWords specialNavWords">WWE</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					影视
+				</a>	
+				<div class="channel film">
+					<a href="#" class="navWords">电影</a>
+					<a href="#" class="navWords">剧集</a>
+					<a href="#" class="navWords">综艺</a>
+					<a href="#" class="navWords">特摄·布袋戏</a>
+					<a href="#" class="navWords">纪录片</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">世界奇妙物语</a>
+					<a href="#" class="navWords specialNavWords">爸爸去哪儿</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					文章
+				</a>	
+				<div class="channel artical">
+					<a href="#" class="navWords">文章综合</a>
+					<a href="#" class="navWords">工作·情感</a>
+					<a href="#" class="navWords">动漫文化</a>
+					<a href="#" class="navWords">小说·漫画</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">咬人画的</a>
+					<a href="#" class="navWords specialNavWords">舰娘同人漫画</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					合辑
+				</a>	
+				<div class="channel sumspecial">
+					<a href="#" class="navWords">AcFun专题</a>
+					<span class="shuxian">|</span>
+					<a href="#" class="navWords specialNavWords">美食BBQ烤肉</a>
+					<a href="#" class="navWords specialNavWords"> AcFun无聊大作战 </a>
+					<div class="tail"></div>
+				</div>
+			</div>
+			<a href="#" class="zhibo">
+				直播
+			</a>	
+			<div class="navA">
+				<a href="#" class="navWords largeNav">
+					更多
+				</a>	
+				<div class="channel more">
+					<a href="#" class="navWords">匿名版</a>
+					<a href="#" class="navWords">百科</a>
+					<a href="#" class="navWords">乐彩</a>
+					<a href="#" class="navWords">页游</a>
+					<a href="#" class="navWords">地图</a>
+					<div class="tail"></div>
+				</div>
+			</div>
+		</div>
+		<div id="navRight">
+			<div class="guide_app">
+				<div class="icon phoneIcon"></div>
+				<a href="#" class="guide_appWords">移动客户端下载</a>
+			</div>
+		</div>
+	</div>
+	<div id="sub-guide" >
+		<div id="sub-guideMengban"></div>
+	</div>
+
+	<!-- 专题，国产动漫区 -->
+	<div id="zhuantiArea">
+		<div id="zhuantiInner">
+			<div id="guanggaoArea">
+				<a href="#">
+					<img src="images/090949341rx3.jpg" width="980px" height="90px">
+				</a>
+			</div>
+			<div id="zhuanti">
+				<div id="block-lightbox" class="left">
+					<div class="lightboxLeft">
+						<a href="#" class="lightboxLeftTag unit-0" data-src="images/lightbox/09104925g0n5.jpg">
+							<h1 class="lightboxh1">7月新番扫雷报告（下）</h1>
+							<h3 class="lightboxh3">为您介绍七月新番动画</h3>
+						</a>
+						<a href="#" class="lightboxLeftTag grayBackground unit-1" data-src="images/lightbox/111758262fei.jpg">
+							<h1 class="lightboxh1">脚下生风，人球合一</h1>
+							<h3 class="lightboxh3">我有特别的过人技巧</h3>
+						</a>
+						<a href="#" class="lightboxLeftTag unit-2" data-src="images/lightbox/09085606xanm.jpg">
+							<h1 class="lightboxh1">Ac动画公测版正式上线</h1>
+							<h3 class="lightboxh3">对不起，我们来晚了！</h3>
+						</a>
+						<a href="#" class="lightboxLeftTag grayBackground unit-3" data-src="images/lightbox/111733424vqb.jpg">
+							<h1 class="lightboxh1">AcFun无聊大作战</h1>
+							<h3 class="lightboxh3">活动作品推荐Ep.1</h3>
+						</a>
+						<a href="#" class="lightboxLeftTag lastTag unit-4" data-src="images/lightbox/07093721i044.jpg">
+							<h1 class="lightboxh1">肉食即是正义！</h1>
+							<h3 class="lightboxh3">国外大师们的烤肉艺术</h3>
+						</a>
+					</div>
+					<a href="#" class="lightboxPic">
+						<img src="images/lightbox/09104925g0n5.jpg" class="lightboxPicStyle">
+					</a>
+					<a href="#" class="moreZhuanti"></a>
+					<a href="#" class="lightboxGuide">
+						<h1 class="lightboxh1">7月新番扫雷报告（下）</h1>
+						<h3 class="lightboxh3">为您介绍七月新番动画</h3>
+					</a> 
+				</div>
+				<div id="zhuantiRight" class="right">
+					<div id="zhuantiRightUp">
+						<div class="rightTitle">
+							<div class="rightTitleBg"></div>
+						</div>
+						<div class="guochandonghua rightContent">
+							<div class="animate_detail">
+								<a href="#" class="animate_detailLeft">
+									<img src="images/081019070eek.jpg" >
+									<span class="ico_play"></span>
+								</a>
+								<div class="animate_detailRight">
+									<a href="#" class="animate_detailRightTitle">《魁拔妖侠传》第三集</a>
+									<p class="animate_detailRightDesc">在魁拔纪年1661年，距离魁拔复活还有3年时，一系列你死我活的家族争斗就此展开。
+									</p>
+								</div>
+							</div>
+							<div class="animate_titleList">
+								<div class="animate_titleLeft">
+									<a href="#" class="animate_tlistTitle">《功夫兔菜包狗》10</a>
+									<a href="#" class="animate_tlistTitle">《死灵编码》12</a>
+									<a href="#" class="animate_tlistTitle">《不可能恋爱？》10</a>
+								</div>
+								<div class="animate_titleRight">
+									<a href="#" class="animate_tlistTitle">《橙子故事》12</a>
+									<a href="#" class="animate_tlistTitle">《十九国》04</a>
+									<a href="#" class="animate_tlistTitle">《尸兄》28</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="leftGuangGao">
+						<a href="#">
+							<img src="images/31181912h5ye.jpg" width="280px" height="96px">
+						</a>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+	<!-- 左侧直播娱乐区，右侧排行榜 -->
+	<div id="zhiboyule">
+		<div class="left">
+			<div class="lanmu1">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent1">
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/10134424d3mk.jpg" class="preview">
+							<span class="ico_play"></span>
+						</a>
+						<a href="#" class="videoTitle">
+							跑跑 漂移是一种信仰
+						</a>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1014364271y6.jpg" class="preview">
+							<span class="ico_play"></span>
+						</a>
+						<a href="#" class="videoTitle">
+							星苏 我的天梯三冠梦
+						</a>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/101205116yyg.jpg" class="preview">
+							<span class="ico_play"></span>
+						</a>
+						<a href="#" class="videoTitle">
+							暗黑2 战网初体验
+						</a>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/10165032tu6q.jpg" class="preview">
+							<span class="ico_play"></span>
+						</a>
+						<a href="#" class="videoTitle">
+							Mugen大乱斗
+						</a>
+					</div>
+					<div class="videoBox videoBoxLast">
+						<a href="#" class="videoPic videoPicLast">
+							<img src="images/10184112i2pr.png" class="preview">
+							<span class="ico_play"></span>
+						</a>
+						<a href="#" class="videoTitle videoTitleLast">
+							棍爷再上次王者好不啦
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="lanmu2">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent2">
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/10120918wmub.jpg" class="preview">
+								<span class="time">5:14</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								神街访：一句话证明你很丑 网友各种神回复
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">140116</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">137</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/e00141jmv61_1.jpg" class="preview">
+								<span class="time">1:18</span>
+							</a>
+							<a href="#" class="videoTitle">
+								英国：天上掉钻石 谁捡到归谁
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">1382</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">5</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/27202633ihrq.jpg" class="preview">
+								<span class="time">28:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								灵魂歌手带你看毁歌才是本体
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">12024</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">97</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/1100641F46537EB0B9F2F10564B29A12BCAF39-408B-5FA2-FC69-C1B3FA5ACB19.jpg" class="preview">
+								<span class="time">8:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								台湾版 你是处男吗？各种神回复【神街访】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">259652</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">132</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/1100641F4653E6CF31BFBC139B1FA41315FA7E-BA75-E53A-D1CD-193DBBC886E6.jpg" class="preview">
+								<span class="time">8:14</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								当美国人目睹亚洲人的打骂教育,他们会怎么做
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">4199</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">15</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/09145144sbh9.jpg" class="preview">
+								<span class="time">4:25</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								【坷垃·杰伦·周】搁浅
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">31255</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">97</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/q0133i3elmc_1.jpg" class="preview">
+								<span class="time">14:05</span>
+							</a>
+							<a href="#" class="videoTitle">
+								童颜巨乳背后的故事—最真实的E奶小孽
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">44672</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">142</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/p.jpg" class="preview">
+								<span class="time">2:47</span>
+							</a>
+							<a href="#" class="videoTitle">
+								日本第一国民美少女出炉 超萌旧照曝光
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">69572</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">351</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/09224532idlj.jpg" class="preview">
+								<span class="time">2:57</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								【缺明星】V3曲子
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">14716</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">56</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/10190051wgll.jpg" class="preview">
+								<span class="time">25:22</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								评论才是本体【六十期】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">23439</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">257</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="right">
+			<div id="block_rank" class="block">
+				<div class="rightTitle">
+					<div class="rightTitleBg"></div>
+					<div class="right">
+						<a class="tab active" tabid="1">今日</a>
+						<a class="tab" tabid="2">本周</a>
+					</div>
+				</div>
+				<div class="zongpaihang rightContent">
+					<div class="page1 page active">
+						<div class="unit unit-top3 unit-1">
+							<div class="top3paihangLeft">
+								<a href="#" class="top3paihangLeftPic">
+									<img src="images/13140613i2iu.jpg" class="preview_top">
+								</a>
+							</div>
+							<div class="top3paihangRight">
+								<p class="index">1</p>
+								<a href="#" class="top3paihangRight1">
+									日常任务不能停！打卡日常作品第一期
+								</a>
+								<div class="top3paihangRight2">
+									<span class="Upzhu">Up:</span>
+									<a href="#" class="author">AcFun专题</a>
+								</div>
+								<div class="info_hover">
+									<div class="info_hoverLeft">
+										<div class="icon playCircleIcon"></div>
+										<span class="numStyle">601255</span>
+									</div>
+									<div class="info_hoverRight">
+										<span class="numStyle">600</span>
+										<div class="icon commentIcon"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="unit unit-top3 unit-2">
+							<div class="top3paihangLeft">
+								<a href="#" class="top3paihangLeftPic">
+									<img src="images/1114041175b8.jpg" class="preview_top">
+								</a>
+							</div>
+							<div class="top3paihangRight">
+								<p class="index">2</p>
+								<a href="#" class="top3paihangRight1">
+									脚下生风，人球合一 ——我有特别的过人技巧
+								</a>
+								<div class="top3paihangRight2">
+									<span class="Upzhu">Up:</span>
+									<a href="#" class="author">AcFun专题</a>
+								</div>
+								<div class="info_hover">
+									<div class="info_hoverLeft">
+										<div class="icon playCircleIcon"></div>
+										<span class="numStyle">589358</span>
+									</div>
+									<div class="info_hoverRight">
+										<span class="numStyle">397</span>
+										<div class="icon commentIcon"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="unit unit-top3 unit-3">
+							<div class="top3paihangLeft">
+								<a href="#" class="top3paihangLeftPic">
+									<img src="images/102209077hkh.jpg" class="preview_top">
+								</a>
+							</div>
+							<div class="top3paihangRight">
+								<p class="index">3</p>
+								<a href="#" class="top3paihangRight1">
+									你的灵魂，被触动了吗？
+								</a>
+								<div class="top3paihangRight2">
+									<span class="Upzhu">Up:</span>
+									<a href="#" class="author">xcmanto</a>
+								</div>
+								<div class="info_hover">
+									<div class="info_hoverLeft">
+										<div class="icon playCircleIcon"></div>
+										<span class="numStyle">301255</span>
+									</div>
+									<div class="info_hoverRight">
+										<span class="numStyle">297</span>
+										<div class="icon commentIcon"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="unit unit-4">
+							<div class="otherTops">
+								<p class="index">4</p>
+								<a href="#" class="otherTopsTitle">
+									5岁男孩遇街头采访 油管上爆红高能在2p
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-5">
+							<div class="otherTops">
+								<p class="index">5</p>
+								<a href="#" class="otherTopsTitle">
+									你们在QQ上向妹妹表白有什么用？有种就真人啊
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-6">
+							<div class="otherTops">
+								<p class="index">6</p>
+								<a href="#" class="otherTopsTitle">
+									聚焦韩寒：我违反了一切电影规则
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-7">
+							<div class="otherTops">
+								<p class="index">7</p>
+								<a href="#" class="otherTopsTitle">
+									2014年8月第1周碉堡傻缺视频合辑
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-8">
+							<div class="otherTops">
+								<p class="index">8</p>
+								<a href="#" class="otherTopsTitle">
+									评论才是本体【六十期】
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-9">
+							<div class="otherTops">
+								<p class="index">9</p>
+								<a href="#" class="otherTopsTitle">
+									8月9日晚 黑哥最后又唱哭了 黑哥华仔直播录像
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-10">
+							<div class="otherTops">
+								<p class="index">10</p>
+								<a href="#" class="otherTopsTitle">
+									【飞碟说】那些年，AV教错的事
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="page2 page ">
+						<div class="unit unit-top3 unit-1">
+							<div class="top3paihangLeft">
+								<a href="#" class="top3paihangLeftPic">
+									<img src="images/10035047zqq1.jpg" class="preview_top">
+								</a>
+							</div>
+							<div class="top3paihangRight">
+								<p class="index">1</p>
+								<a href="#" class="top3paihangRight1">
+									老外也听周杰伦
+								</a>
+								<div class="top3paihangRight2">
+									<span class="Upzhu">Up:</span>
+									<a href="#" class="author">草榴</a>
+								</div>
+								<div class="info_hover">
+									<div class="info_hoverLeft">
+										<div class="icon playCircleIcon"></div>
+										<span class="numStyle">401255</span>
+									</div>
+									<div class="info_hoverRight">
+										<span class="numStyle">361</span>
+										<div class="icon commentIcon"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="unit unit-top3 unit-2">
+							<div class="top3paihangLeft">
+								<a href="#" class="top3paihangLeftPic">
+									<img src="images/1100641F4653E8C7983C6E06257BB6C9DEA45D-F40B-1195-368B-FE59B17F994D.jpg" class="preview_top">
+								</a>
+							</div>
+							<div class="top3paihangRight">
+								<p class="index">2</p>
+								<a href="#" class="top3paihangRight1">
+									万万没想到 第二季 番外篇第一集大锤生死恋
+								</a>
+								<div class="top3paihangRight2">
+									<span class="Upzhu">Up:</span>
+									<a href="#" class="author">《万万没想到》</a>
+								</div>
+								<div class="info_hover">
+									<div class="info_hoverLeft">
+										<div class="icon playCircleIcon"></div>
+										<span class="numStyle">550204</span>
+									</div>
+									<div class="info_hoverRight">
+										<span class="numStyle">688</span>
+										<div class="icon commentIcon"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="unit unit-top3 unit-3">
+							<div class="top3paihangLeft">
+								<a href="#" class="top3paihangLeftPic">
+									<img src="images/09183917nwyn.jpg" class="preview_top">
+								</a>
+							</div>
+							<div class="top3paihangRight">
+								<p class="index">3</p>
+								<a href="#" class="top3paihangRight1">
+									5岁男孩遇街头采访 油管上爆红高能在2p
+								</a>
+								<div class="top3paihangRight2">
+									<span class="Upzhu">Up:</span>
+									<a href="#" class="author">krrain</a>
+								</div>
+								<div class="info_hover">
+									<div class="info_hoverLeft">
+										<div class="icon playCircleIcon"></div>
+										<span class="numStyle">301255</span>
+									</div>
+									<div class="info_hoverRight">
+										<span class="numStyle">297</span>
+										<div class="icon commentIcon"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="unit unit-4">
+							<div class="otherTops">
+								<p class="index">4</p>
+								<a href="#" class="otherTopsTitle">
+									超跑和破车的差别！ 土豪又来整蛊拜金女 【字幕】
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-5">
+							<div class="otherTops">
+								<p class="index">5</p>
+								<a href="#" class="otherTopsTitle">
+									2014年8月第1周碉堡傻缺视频合辑
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-6">
+							<div class="otherTops">
+								<p class="index">6</p>
+								<a href="#" class="otherTopsTitle">
+									聚焦韩寒：我违反了一切电影规则
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-7">
+							<div class="otherTops">
+								<p class="index">7</p>
+								<a href="#" class="otherTopsTitle">
+									你的灵魂，被触动了吗？
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-8">
+							<div class="otherTops">
+								<p class="index">8</p>
+								<a href="#" class="otherTopsTitle">
+									评论才是本体【六十期】
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-9">
+							<div class="otherTops">
+								<p class="index">9</p>
+								<a href="#" class="otherTopsTitle">
+									8月9日晚 黑哥最后又唱哭了 黑哥华仔直播录像
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-10">
+							<div class="otherTops">
+								<p class="index">10</p>
+								<a href="#" class="otherTopsTitle">
+									科比精神-绝对是你看过制作的最好的一部
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+   	<!-- 动画区 -->
+	<div id="dongman">
+		<div class="left">
+			<div class="lanmu2">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent2">
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/101832339z1y.jpg" class="preview">
+								<span class="time">4:49</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								key社的CLANNAD，超感人
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">219</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">13</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/102006496r6k.jpg" class="preview">
+								<span class="time">0:33</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【新海誠】大成建設CM  「ベトナム・ノイバイ空港」篇
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">767</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">9</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/15030319qjqn.jpg" class="preview">
+								<span class="time">48:00</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【7月】精灵使的剑舞 01
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">64080</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">116</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/01005237dc8t.jpg" class="preview">
+								<span class="time">--:--</span>
+							</a>
+							<a href="#" class="videoTitle">
+								《我的小马驹：友谊就是魔法》专题介绍
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">267807</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">615</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/m25_2.jpg" class="preview">
+								<span class="time">2:55</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								TV动画『正义红师』正式版PV及官网公开
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">4479</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">49</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/102240079tbn.jpg" class="preview">
+								<span class="time">--:--</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								【7月】Space dandy 第二季 06
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">381</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">6</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/091839535ol7.jpg" class="preview">
+								<span class="time">23:41</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【四月新番】JOJO的奇妙冒险·星尘斗士 19【BaiduJOJO×UhaWing】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">67901</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">153</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/09151830jnmw.jpg" class="preview">
+								<span class="time">28:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【长篇】妖精的尾巴S2 19【DYMY】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">23732</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">33</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/1005065652px.jpg" class="preview">
+								<span class="time">8:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【7月】元气囝仔 06
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">16701</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">52</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/081801511cjx.jpg" class="preview">
+								<span class="time">17:14</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								「高达 Reconquista in G」第1話冒頭10分映像
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">27118</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">175</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="leftguanggao">
+				<a href="#">
+					<img src="images/12093713ux9h.png" width="680px" height="90px;">
+				</a>
+			</div>
+		</div>
+		<div class="right">
+			<div id="xinfanArea">
+				<div class="rightTitle">
+					<div class="rightTitleBg"></div>
+				</div>
+				<div class="xinfan rightContent">
+					<div class="bianxian"></div>
+					<div class="xfUpdate xfUpdate0">
+						<div class="xfUpdateLeft">
+							<div date-value="0" class="weekStyle">周日</div>
+						</div>
+						<div class="xfUpdateRight">
+							<div class="quanbuxinfan">
+								<a href="#" class="xfTitle">【7月】人生</a>
+								<a href="#" class="xfTitle">【7月】机动战士 高达桑</a>
+								<a href="#" class="xfTitle">【7月】太空丹迪 Season 2</a>
+								<a href="#" class="xfTitle">【7月】元气囝仔</a>
+								<a href="#" class="xfTitle">【7月】战国BASARA Judge End</a>
+								<a href="#" class="xfTitle">【7月】Aldnoah.Zero</a>
+								<a href="#" class="xfTitle">【7月】少年好莱坞</a>
+								<a href="#" class="xfTitle">【4月】排球少年</a>
+								<a href="#" class="xfTitle">【长篇】龙珠改</a>
+								<a href="#" class="xfTitle">【长篇】金田一少年事件簿R</a>
+								<a href="#" class="xfTitle">【4月】地球队长</a>
+								<a href="#" class="xfTitle">【4月】魔法科高校的劣等生</a>
+								<a href="#" class="xfTitle">【长篇】哆啦A梦新番</a>
+								<a href="#" class="xfTitle">【长篇】名侦探柯南</a>
+								<a href="#" class="xfTitle">【长篇】海贼王</a>
+							</div>
+						</div>
+						<div class="xfUpdateTool">
+							<div class="btn-scroll" curDirection="down">
+								<div class="scrollbtnicon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="xfUpdate xfUpdate1">
+						<div class="xfUpdateLeft ">
+							<div date-value="1" class="weekStyle">周一</div>
+						</div>
+						<div class="xfUpdateRight">
+							<div class="quanbuxinfan">
+								<a href="#" class="xfTitle">【7月】法兰雀丝卡</a>
+								<a href="#" class="xfTitle">【4月】游戏王ARC-V</a>
+								<a href="#" class="xfTitle">【7月】暗芝居 第2季</a>
+								<a href="#" class="xfTitle">【7月】DRAMAtical Murder</a>
+								<a href="#" class="xfTitle">【7月】月刊少女野崎君</a>
+								<a href="#" class="xfTitle">【7月】斩·赤红之瞳</a>
+								<a href="#" class="xfTitle">【7月】生存游戏社</a>
+								<a href="#" class="xfTitle">【7月】美妙旋律 Pripara</a>
+								<a href="#" class="xfTitle">【长篇】相扑力士松太郎</a>
+								<a href="#" class="xfTitle">【4月】网球优等生</a>
+								<a href="#" class="xfTitle">【长篇】Happiness Charge 光之美少女</a>
+								<a href="#" class="xfTitle">【长篇】钻石王牌</a>
+							</div>
+						</div>
+						<div class="xfUpdateTool">
+							<div class="btn-scroll" curDirection="down">
+								<div class="scrollbtnicon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="xfUpdate xfUpdate2">
+						<div class="xfUpdateLeft ">
+							<div date-value="2" class="weekStyle">周二</div>
+						</div>
+						<div class="xfUpdateRight">
+							<div class="quanbuxinfan">
+								<a href="#" class="xfTitle">【7月】hentai！</a>
+								<a href="#" class="xfTitle">【7月】精灵使的剑舞</a>
+								<a href="#" class="xfTitle">【7月】暗芝居 第2季</a>
+								<a href="#" class="xfTitle">【7月】RE: 滨虎</a>
+								<a href="#" class="xfTitle">【7月】花舞少女</a>
+								<a href="#" class="xfTitle">【7月】青春之旅</a>
+								<a href="#" class="xfTitle">【7月】搞姬日常</a>
+								<a href="#" class="xfTitle">【长篇】怪物烈传/激战奥雷卡＆龙收藏</a>
+								<a href="#" class="xfTitle">【4月】M3黑钢</a>
+								<a href="#" class="xfTitle">【4月】妖怪手表</a>
+							</div>
+						</div>
+						<div class="xfUpdateTool">
+							<div class="btn-scroll" curDirection="down">
+								<div class="scrollbtnicon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="xfUpdate xfUpdate3">
+						<div class="xfUpdateLeft ">
+							<div date-value="3" class="weekStyle">周三</div>
+						</div>
+						<div class="xfUpdateRight">
+							<div class="quanbuxinfan">
+								<a href="#" class="xfTitle">【7月】漫研部~妄想Catastrophe~</a>
+								<a href="#" class="xfTitle">【7月】桃剑</a>
+								<a href="#" class="xfTitle">【4月】魔法少女大战</a>
+								<a href="#" class="xfTitle">【4月】魔神之骨</a>
+								<a href="#" class="xfTitle">【长篇】全职猎人重制版</a>
+							</div>
+						</div>
+						<div class="xfUpdateTool">
+							<div class="btn-scroll" curDirection="down">
+								<div class="scrollbtnicon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="xfUpdate xfUpdate4">
+						<div class="xfUpdateLeft ">
+							<div date-value="4" class="weekStyle">周四</div>
+						</div>
+						<div class="xfUpdateRight">
+							<div class="quanbuxinfan">
+								<a href="#" class="xfTitle">【7月】Fate/kaleid liner 魔法少女☆伊莉雅 2wei!</a>
+								<a href="#" class="xfTitle">【7月】LOVE STAGE!!</a>
+								<a href="#" class="xfTitle">【7月】修业魔女璐璐萌</a>
+								<a href="#" class="xfTitle">【7月】前进吧！登山少女 第二季</a>
+								<a href="#" class="xfTitle">【7月】玻璃之唇 </a>
+								<a href="#" class="xfTitle">【7月】白银的意志 ARGEVOLLEN</a>
+								<a href="#" class="xfTitle">【7月】幕末 Rock</a>
+								<a href="#" class="xfTitle">【7月】Free! ~永恒夏日~</a>
+								<a href="#" class="xfTitle">【4月】宝石宠物 lady</a>
+							</div>
+						</div>
+						<div class="xfUpdateTool">
+							<div class="btn-scroll" curDirection="down">
+								<div class="scrollbtnicon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="xfUpdate xfUpdate5">
+						<div class="xfUpdateLeft ">
+							<div date-value="5" class="weekStyle">周五</div>
+						</div>
+						<div class="xfUpdateRight">
+							<div class="quanbuxinfan">
+								<a href="#" class="xfTitle">【7月】黑执事 马戏团篇</a>
+								<a href="#" class="xfTitle">【7月】女神异闻录4 黄金动画版</a>
+								<a href="#" class="xfTitle">【7月】PSYCHO-PASS 心理测量者 (新剪辑版)</a>
+								<a href="#" class="xfTitle">【7月】东京残响</a>
+								<a href="#" class="xfTitle">【7月】RWBY Volume 2</a>
+								<a href="#" class="xfTitle">【7月】真· strange+</a>
+								<a href="#" class="xfTitle">【7月】普通女高中生要做当地偶像</a>
+								<a href="#" class="xfTitle">【7月】东京喰种</a>
+								<a href="#" class="xfTitle">【4月】复仇者联盟 光盘战争 </a>
+								<a href="#" class="xfTitle">【长篇】口袋妖怪/宠物小精灵XY</a>
+							</div>
+						</div>
+						<div class="xfUpdateTool">
+							<div class="btn-scroll" curDirection="down">
+								<div class="scrollbtnicon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="xfUpdate xfUpdate6">
+						<div class="xfUpdateLeft ">
+							<div date-value="6" class="weekStyle">周六</div>
+						</div>
+						<div class="xfUpdateRight">
+							<div class="quanbuxinfan">
+								<a href="#" class="xfTitle">【7月】三坪房间的侵略者！？</a>
+								<a href="#" class="xfTitle">【7月】信长协奏曲</a>
+								<a href="#" class="xfTitle">【7月】东京ESP</a>
+								<a href="#" class="xfTitle">【7月】刀剑神域 II</a>
+								<a href="#" class="xfTitle">【7月】美少女战士 Crystal</a>
+								<a href="#" class="xfTitle">【7月】RAIL WARS! </a>
+								<a href="#" class="xfTitle">【长篇】妖精的尾巴</a>
+								<a href="#" class="xfTitle">【四月】JOJO的奇妙冒险 第三部</a>
+								<a href="#" class="xfTitle">【完结】猫和老鼠2014 </a>
+								<a href="#" class="xfTitle">【长篇】未来卡搭档对战</a>
+							</div>
+						</div>
+						<div class="xfUpdateTool">
+							<div class="btn-scroll" curDirection="down">
+								<div class="scrollbtnicon"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 游戏区 -->
+	<div id="youxi">
+		<div class="left">
+			<div class="lanmu2">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent2">
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/09174747jlf2.jpg" class="preview">
+								<span class="time">55:14</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								Dota2 完蛋的vh备忘录78-四大天王有五个八门金锁有十根不是常识吗 ss
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">42377</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">296</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/10194148lrak.jpg" class="preview">
+								<span class="time">16:18</span>
+							</a>
+							<a href="#" class="videoTitle">
+								LPL夏季赛 W9D3 越后越精彩
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">14523</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">77</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/10202426akdm.jpg" class="preview">
+								<span class="time">9:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【战争雷霆】My little pony
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">325</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">8</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/1100641F465358A0D11C3115F1BE6E27D14EC1-316D-C190-ED69-1A4FA4F92B61.jpg" class="preview">
+								<span class="time">14:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								游戏名嘴糖咸蛋带大家玩转《最终幻想14》
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">1946</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">34</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/101008363nue.jpg" class="preview">
+								<span class="time">28:14</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								09 10之后的11来了，CG对比继续走你【蜮耳】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">12629</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">38</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/10095432ttl7.jpg" class="preview">
+								<span class="time">35:14</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								Miss排位日记110期 蛮三刀血战水头人，刀刀秒!
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">42208</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">102</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/02214654vewy.jpg" class="preview">
+								<span class="time">46:18</span>
+							</a>
+							<a href="#" class="videoTitle">
+								12实况 深梦 part.1
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">28209</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">502</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/052358265gik.jpg" class="preview">
+								<span class="time">22:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								ff14实战视频，国服就要公测了，看看再决定入坑吧
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">57595</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">455</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/1100641F4653E7585AF45C0874737A42C69ECF-10F8-B0BD-63D6-917AE6D83716.jpg" class="preview">
+								<span class="time">3:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								怪物猎人过去上老山龙背的方法弱爆了=。=
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">50</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">2</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/1100641F4653E5AFEF2058021AB75A0C25ABF7-5CBB-E9A1-8248-65B7FC274377.jpg" class="preview">
+								<span class="time">64:14</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								纯黑《美国末日：重制版》第二期 绝地攻略解说 双路线全收集
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">46995</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">125</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div id="youxiArea">
+				<div class="rightTitle">
+					<div class="rightTitleBg"></div>
+				</div>
+				<div class="youxibang rightContent">
+					<div class="unit unit-1">
+							<div class="otherTops">
+								<p class="index">1</p>
+								<a href="#" class="otherTopsTitle">
+									《魔兽世界》10周年纪念坐骑：熔火猎犬
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-2">
+							<div class="otherTops">
+								<p class="index">2</p>
+								<a href="#" class="otherTopsTitle">
+									【09dota高分局】全民胜率冠军亚巴顿
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-3">
+							<div class="otherTops">
+								<p class="index">3</p>
+								<a href="#" class="otherTopsTitle">
+									绅士向8月10日直播 电疗萨治脏牧
+								</a>
+							</div>
+						</div>
+					<div class="unit unit-4">
+							<div class="otherTops">
+								<p class="index">4</p>
+								<a href="#" class="otherTopsTitle">
+									Miss排位日记110期 蛮三刀血战水头人，刀刀秒!
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-5">
+							<div class="otherTops">
+								<p class="index">5</p>
+								<a href="#" class="otherTopsTitle">
+									口袋妖怪红蓝宝石复刻新增MEGA
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-6">
+							<div class="otherTops">
+								<p class="index">6</p>
+								<a href="#" class="otherTopsTitle">
+									怪物猎人过去上老山龙背的方法弱爆了=。=
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-7">
+							<div class="otherTops">
+								<p class="index">7</p>
+								<a href="#" class="otherTopsTitle">
+									[吊打星妈动物园]七煌炉石咖啡厅第67期(Bella Dc 满楼)
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-8">
+							<div class="otherTops">
+								<p class="index">8</p>
+								<a href="#" class="otherTopsTitle">
+									七煌炉石咖啡厅第68期(千雪 Dc 满楼)
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-9">
+							<div class="otherTops">
+								<p class="index">9</p>
+								<a href="#" class="otherTopsTitle">
+									纯黑《美国末日：重制版》第二期 绝地攻略解说 双路线全收集
+								</a>
+							</div>
+						</div>
+						<div class="unit unit-10">
+							<div class="otherTops">
+								<p class="index">10</p>
+								<a href="#" class="otherTopsTitle">
+									Dota2 完蛋的vh备忘录78-四大天王有五个八门金锁有十根不是常识吗 ss
+								</a>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 音乐，文章，体育 -->
+	<div id="yinyue">
+		<div class="left">
+			<div class="lanmu2">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent2">
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/05204309s1nj.jpg" class="preview">
+								<span class="time">4:14</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								穿着校服的日本萌妹子【つかさ】愛言葉【踊ってみた】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">70233</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">114</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/m25.jpg" class="preview">
+								<span class="time">9:18</span>
+							</a>
+							<a href="#" class="videoTitle">
+								我一直在看她的锁骨 这是病么？
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">404659</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">814</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/e0014f3fuph_1.jpg" class="preview">
+								<span class="time">28:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								这个人已经与我无关
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">11478</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">42</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/100657226_1.jpg" class="preview">
+								<span class="time">7:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【つかさ】 I ♥ 【踊ってみた】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">2464</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">9</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/t0134u2o63c_1.jpg" class="preview">
+								<span class="time">4:14</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								紅ノ夜ノ唄【景三•Rinkin】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">338</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">4</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/09081646e64w.jpg" class="preview">
+								<span class="time">4:14</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								【填詞翻唱】夢的代價（原曲：ヨンジュウナナ）【三色堇填詞翻唱組】#52
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">7923</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">17</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/1100641F4653E777EF06860907E511B9C3FA15-7900-D9DD-64FF-42C84ADA6043.jpg" class="preview">
+								<span class="time">84:18</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【48G】夏祭りAKB48 Baitoru特别LIVE
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">39</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">6</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/07014256qonq.jpg" class="preview">
+								<span class="time">83:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【月光电台】原唱与翻唱的不同韵味 Vol.1 24P
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">8004</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">23</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/10024357o8k2.jpg" class="preview">
+								<span class="time">3:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【3000x浅川】纯情ハービヴォー
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">3054</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">7</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/10132802xu9j.jpg" class="preview">
+								<span class="time">1:14</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								【z子】~月刊少女野崎君OP~
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">1593</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">26</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lanmu1">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent1">
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1100641F46533318F3B9471326230210B6D398-FF08-3AC1-25D6-2AD48B12FF48.jpg" class="preview">
+							<span class="time">40:14</span>
+							<div class="superscript"></div>
+						</a>
+						<a href="#" class="videoTitle">
+							科比精神-绝对是你看过制作的最好的一部
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">28130</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">39</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1100641F4653E68803484807D2AC49034372F8-041F-D63D-339E-FE9E9748DBE5.jpg" class="preview">
+							<span class="time">7:18</span>
+						</a>
+						<a href="#" class="videoTitle">
+							10大最欢乐乌龙进球
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">18492</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">22</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1014371593er.jpg" class="preview">
+							<span class="time">92:22</span>
+						</a>
+						<a href="#" class="videoTitle">
+							WWE.SD.2014.08.08.中文高清
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">721</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">5</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/10173519sva5.jpg" class="preview">
+							<span class="time">8:21</span>
+						</a>
+						<a href="#" class="videoTitle">
+							最恐怖的杀手：外星人罗纳尔多单挑后防进球大全！
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">16326</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">39</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox videoBoxLast">
+						<a href="#" class="videoPic videoPicLast">
+							<img src="images/1100641F4653E72052E70D07D2AC49B504FD6F-8ED9-0023-ED97-83588047C800.jpg" class="preview">
+							<span class="time">5:14</span>
+						</a>
+						<a href="#" class="videoTitle videoTitleLast">
+							巴西另一尊大神！室内足球之王法尔考
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">903</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">3</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div id="wenzhangArea">
+				<div class="rightTitle">
+					<div class="rightTitleBg"></div>
+					<div class="right">
+						<a class="tab active" tabid="1">综合</a>
+						<a class="tab" tabid="2">工作情感</a>
+						<a class="tab" tabid="3">动漫文化</a>
+						<a class="tab" tabid="4">漫画小说</a>
+					</div>
+				</div>
+				<div class="wenzhang rightContent">
+					<div class="block" id="block_artical">
+						<div class="page1 page active">
+							<div class="unit unit-0">
+								<div class="topWenzhangleft">
+									<a href="#" class="topWenzhangLeftpic">
+										<img src="images/11094239ckpd.jpg" >
+									</a>
+								</div>
+								<div class="topWenzhangRight">
+									<a href="#" class="topWenzhangTitle">乌克兰议会打架抓拍若油画</a>
+									<span class="topWenzhangDesc">
+										众多网友惊呼，这张照片的构图无比精妙，完美遵守了黄金分割率！
+									</span>
+								</div>
+							</div>
+							<div class="unit unit-1">
+								<a href="#" class="wenzhangTitleList">
+									小提琴家仿关公刮骨疗伤 边拉琴边脑部手术
+								</a>
+							</div>
+							<div class="unit unit-2">
+								<a href="#" class="wenzhangTitleList">
+									带你参观人民币印刷厂 看什么是视金钱如废纸
+								</a>
+							</div>
+							<div class="unit unit-3">
+								<a href="#" class="wenzhangTitleList">
+									美国新奥尔良发生枪击事件 造成2人死亡5人受伤
+								</a>
+							</div>
+							<div class="unit unit-4">
+								<a href="#" class="wenzhangTitleList">
+									迈克尔·贝：拍完《变形金刚》还想拍《EVA》
+								</a>
+							</div>
+							<div class="unit unit-5">
+								<a href="#" class="wenzhangTitleList">
+									中国网络小说在越南受热捧 长篇小说可达百万点击
+								</a>
+							</div>
+							<div class="unit unit-6">
+								<a href="#" class="wenzhangTitleList">
+									「迷糊餐厅」TV动画第3季制作决定
+								</a>
+							</div>
+							<div class="unit unit-7">
+								<a href="#" class="wenzhangTitleList">
+									俄罗斯派舰船和飞机驱赶美军核潜艇
+								</a>
+							</div>
+							<div class="unit unit-8">
+								<a href="#" class="wenzhangTitleList">
+									麦当劳全球销量跌至10年来最低
+								</a>
+							</div>
+							<div class="unit unit-9">
+								<a href="#" class="wenzhangTitleList">
+									英媒：中国富豪热衷赴英国狩猎 一周花费超百万
+								</a>
+							</div>
+							<div class="unit unit-10">
+								<a href="#" class="wenzhangTitleList">
+									组图：中国96A坦克大赛再“挂彩” 正脸受损变形
+								</a>
+							</div>
+							<div class="unit unit-11">
+								<a href="#" class="wenzhangTitleList">
+									中国民间首次向日本皇室追讨中国文物
+								</a>
+							</div>
+							<div class="unit unit-12">
+								<a href="#" class="wenzhangTitleList">
+									中俄国门对比：对不起俄国人 我们不是故意的
+								</a>
+							</div>
+							<div class="unit unit-13">
+								<a href="#" class="wenzhangTitleList">
+									《忍者神龟》冲击《银河护卫队》 6500万美元创北美8月首映票房第四高
+								</a>
+							</div>
+						</div>
+						<div class="page2 page">
+							<div class="unit unit-0">
+								<div class="topWenzhangleft">
+									<a href="#" class="topWenzhangLeftpic">
+										<img src="images/141024527xmt.jpg" >
+									</a>
+								</div>
+								<div class="topWenzhangRight">
+									<a href="#" class="topWenzhangTitle">我在她眼里到底算什么？</a>
+									<span class="topWenzhangDesc">
+										我去，有男朋友这样陪我看电影真的好吗？你男朋友真的是包容啊。
+									</span>
+								</div>
+							</div>
+							<div class="unit unit-1">
+								<a href="#" class="wenzhangTitleList">
+									喜闻乐见 第一次向男生表白以失败告终
+								</a>
+							</div>
+							<div class="unit unit-2">
+								<a href="#" class="wenzhangTitleList">
+									AA制就是不爱她 我女友所谓的闺蜜
+								</a>
+							</div>
+							<div class="unit unit-3">
+								<a href="#" class="wenzhangTitleList">
+									纠结要不要跟青梅竹马交往 怕耽误她
+								</a>
+							</div>
+							<div class="unit unit-4">
+								<a href="#" class="wenzhangTitleList">
+									磕磕绊绊跌跌撞撞我失去了我的方向
+								</a>
+							</div>
+							<div class="unit unit-5">
+								<a href="#" class="wenzhangTitleList">
+									情人？备胎？男朋友？我在她眼里到底算什么？
+								</a>
+							</div>
+							<div class="unit unit-6">
+								<a href="#" class="wenzhangTitleList">
+									黄毛第一视角的小故事
+								</a>
+							</div>
+							<div class="unit unit-7">
+								<a href="#" class="wenzhangTitleList">
+									老司机们带带我 分手之后怎么办 UP值么T_T
+								</a>
+							</div>
+							<div class="unit unit-8">
+								<a href="#" class="wenzhangTitleList">
+									再会：初中她叫我爸爸，现在她让我叫她姐姐（13.12.2更新）
+								</a>
+							</div>
+							<div class="unit unit-9">
+								<a href="#" class="wenzhangTitleList">
+									续：拍结婚照前分手了 浪费一年时间
+								</a>
+							</div>
+							<div class="unit unit-10">
+								<a href="#" class="wenzhangTitleList">
+									进不进国企 或许是个职业生涯的转折点 请各位AC的大大们指点迷津
+								</a>
+							</div>
+							<div class="unit unit-11">
+								<a href="#" class="wenzhangTitleList">
+									被同事穷追不舍，跪求发卡指导
+								</a>
+							</div>
+							<div class="unit unit-12">
+								<a href="#" class="wenzhangTitleList">
+									UP欲追白富美 但是怎么看怎么不现实啊
+								</a>
+							</div>
+							<div class="unit unit-13">
+								<a href="#" class="wenzhangTitleList">
+									某选择困难的矫情留学生 大学都快开学了还在犹豫去哪
+								</a>
+							</div>
+						</div>
+						<div class="page3 page">
+							<div class="unit unit-0">
+								<div class="topWenzhangleft">
+									<a href="#" class="topWenzhangLeftpic">
+										<img src="images/14140350htlu.jpg" >
+									</a>
+								</div>
+								<div class="topWenzhangRight">
+									<a href="#" class="topWenzhangTitle">龙吟沧海莉莉安限量手办众筹</a>
+									<span class="topWenzhangDesc">
+										为了答谢所有在早期就喜欢《龙吟沧海》以及 “莉莉安”的粉丝
+									</span>
+								</div>
+							</div>
+							<div class="unit unit-1">
+								<a href="#" class="wenzhangTitleList">
+									2ch：韩国的萌漫画wwwww
+								</a>
+							</div>
+							<div class="unit unit-2">
+								<a href="#" class="wenzhangTitleList">
+									《魔卡少女樱》3款新包开始接受预约
+								</a>
+							</div>
+							<div class="unit unit-3">
+								<a href="#" class="wenzhangTitleList">
+									连日本共产党都看不下去了-日本动画制作的悲惨世界
+								</a>
+							</div>
+							<div class="unit unit-4">
+								<a href="#" class="wenzhangTitleList">
+									“最希望真人化的足球动漫”票选结果
+								</a>
+							</div>
+							<div class="unit unit-5">
+								<a href="#" class="wenzhangTitleList">
+									美网友评论：随着名导演宫崎骏退休，吉卜力动画工作室面临着不确定的未来
+								</a>
+							</div>
+							<div class="unit unit-6">
+								<a href="#" class="wenzhangTitleList">
+									一粉顶十黑！《海贼王》风潮下的批判声
+								</a>
+							</div>
+							<div class="unit unit-7">
+								<a href="#" class="wenzhangTitleList">
+									《浪客剑心 京都大火篇》9日票房破17亿
+								</a>
+							</div>
+							<div class="unit unit-8">
+								<a href="#" class="wenzhangTitleList">
+									「LoveLive!」声优新田惠海、饭田里穂、Pile台湾漫博会登场
+								</a>
+							</div>
+							<div class="unit unit-9">
+								<a href="#" class="wenzhangTitleList">
+								2014/08/18付，动画BD/DVD销量榜,附新番PT榜【暂歇（先行版）
+								</a>
+							</div>
+							<div class="unit unit-10">
+								<a href="#" class="wenzhangTitleList">
+									腐男腐女大爆料！交往后竟意外普通？
+								</a>
+							</div>
+							<div class="unit unit-11">
+								<a href="#" class="wenzhangTitleList">
+									【2014世萌 黄宝石赛】第5轮
+								</a>
+							</div>
+							<div class="unit unit-12">
+								<a href="#" class="wenzhangTitleList">
+									实至名归！宫崎骏入选美国漫画殿堂
+								</a>
+							</div>
+							<div class="unit unit-13">
+								<a href="#" class="wenzhangTitleList">
+									2ch：【有图】用橡皮章制霸了PM全图鉴…
+								</a>
+							</div>
+						</div>
+						<div class="page4 page">
+							<div class="unit unit-0">
+								<div class="topWenzhangleft">
+									<a href="#" class="topWenzhangLeftpic">
+										<img src="images/14101327kg63.jpg" >
+									</a>
+								</div>
+								<div class="topWenzhangRight">
+									<a href="#" class="topWenzhangTitle">【漫画】魔武渡#4 武林盟主</a>
+									<span class="topWenzhangDesc">
+										既是江湖中人，要选武林盟主，必须以武服人，谁能技压群雄便……
+									</span>
+								</div>
+							</div>
+							<div class="unit unit-1">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】绝望男子与中国娘 第六回
+								</a>
+							</div>
+							<div class="unit unit-2">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】少女猛禽 #14
+								</a>
+							</div>
+							<div class="unit unit-3">
+								<a href="#" class="wenzhangTitleList">
+									【舰娘四格】灵光一闪的舰娘剧场3
+								</a>
+							</div>
+							<div class="unit unit-4">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】信长协奏曲 第18-19话
+								</a>
+							</div>
+							<div class="unit unit-5">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】一起锻炼肌肉吧♪  一页
+								</a>
+							</div>
+							<div class="unit unit-6">
+								<a href="#" class="wenzhangTitleList">
+									【东方铃奈庵】【喵玉汉化】第20话 鼠害之夏 前篇
+								</a>
+							</div>
+							<div class="unit unit-7">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】飞翔的魔女 #07
+								</a>
+							</div>
+							<div class="unit unit-8">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】飞翔的魔女 #06
+								</a>
+							</div>
+							<div class="unit unit-9">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】汤神君没有朋友 #15~19
+								</a>
+							</div>
+							<div class="unit unit-10">
+								<a href="#" class="wenzhangTitleList">
+									【漫画】为什么蒙古国师这么吊？ 魔武渡#4
+								</a>
+							</div>
+							<div class="unit unit-11">
+								<a href="#" class="wenzhangTitleList">
+									【轻小说】『我女友与青梅竹马的惨烈修罗场』第一卷
+								</a>
+							</div>
+							<div class="unit unit-12">
+								<a href="#" class="wenzhangTitleList">
+									【轻小说】『修罗场之恋/修罗场恋人』第九卷
+								</a>
+							</div>
+							<div class="unit unit-13">
+								<a href="#" class="wenzhangTitleList">
+									【老舍作品】抱孙
+								</a>
+							</div>
+						</div>
+						<div class="eff"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 影视，科技，追剧 -->
+	<div id="yingshi">
+		<div class="left">
+			<div class="lanmu2">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent2">
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/1002083882y0.jpg" class="preview">
+								<span class="time">48:14</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								【日剧SP】孤独的美食家第四季 炎炎夏日博多出差特别篇 『@FoodForFun』
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">17134</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">31</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/09132234wzet.jpg" class="preview">
+								<span class="time">35:18</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【48G】夏祭相关视频合集（更新10P）
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">20150</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">44</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/10010035grmz.jpg" class="preview">
+								<span class="time">24:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【坛蜜节操日剧】Around 30 03无修正【人人字幕】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">21238</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">19</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/09222243fu85.jpg" class="preview">
+								<span class="time">274:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【系列电影】虎胆龙威（全5部）【1080P】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">31538</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">21</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/15105605tqph.jpg" class="preview">
+								<span class="time">--:--</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								【华尔街之狼】莱昂纳多金球影帝作【豆瓣8.0|IMDb8.7|全明星传记犯罪DVD补丁】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">223097</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">437</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="lmContent1">
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/1100641F4653C3FC9816EB02B5A3C75007101A-632F-75FD-F8A4-A44033E2A3E5.jpg" class="preview">
+								<span class="time">66:14</span>
+								<div class="superscript"></div>
+							</a>
+							<a href="#" class="videoTitle">
+								【死侍】全剧情CG动画剪辑电影：上【中文字幕】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">1831</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">5</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/15165438p9vy.jpg" class="preview">
+								<span class="time">44:18</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【美剧】 昭雪 Rectify 第二季 04   【人人】
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">333</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">2</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/101953514r57.jpg" class="preview">
+								<span class="time">140:22</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【Music Station】盛夏最强LIVE 3小时特别篇，日本的夏歌「昭和VS平成」排行榜
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">3069</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">14</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox">
+							<a href="#" class="videoPic">
+								<img src="images/a0134ty2iai_1.jpg" class="preview">
+								<span class="time">46:21</span>
+							</a>
+							<a href="#" class="videoTitle">
+								【人力字幕组】L.H 140805 只看臉的認真排名
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">2177</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">7</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+						<div class="videoBox videoBoxLast">
+							<a href="#" class="videoPic videoPicLast">
+								<img src="images/10071226pn4z.jpg" class="preview">
+								<span class="time">86:14</span>
+							</a>
+							<a href="#" class="videoTitle videoTitleLast">
+								【高清】真实的恐怖故事·剧场版 诅咒动画（2012）（日语中字）
+							</a>
+							<div class="info_hover">
+								<div class="info_hoverLeft">
+									<div class="icon playCircleIcon"></div>
+									<span class="numStyle">15722</span>
+								</div>
+								<div class="info_hoverRight">
+									<span class="numStyle">21</span>
+									<div class="icon commentIcon"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lanmu1">
+				<div class="lmTitle">
+					<a href="#" class="rightTitleBg"></a>
+					<a href="#" class="tabMore">/更多</a>
+				</div>
+				<div class="lmContent1">
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1100641F4653E55DC5D55201BD28F7F06A48F7-C156-9203-5765-084BD3B5C0A3.jpg" class="preview">
+							<span class="time">23:14</span>
+							<div class="superscript"></div>
+						</a>
+						<a href="#" class="videoTitle">
+							松鼠的PS后期教程第二季·第一期基础篇②part2
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">6816</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">13</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1100641F464C208AF3719800DCAA6AAA6C0C07-9D2A-0267-4F47-6B595C269B94.jpg" class="preview">
+							<span class="time">7:18</span>
+						</a>
+						<a href="#" class="videoTitle">
+							400km小行星撞击地球模拟
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">26851</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">85</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1100641F464CFC81C63FA104AEC0A1CE96528E-F6EA-E32C-20D2-3E10A4A92C3A.jpg" class="preview">
+							<span class="time">4:22</span>
+						</a>
+						<a href="#" class="videoTitle">
+							原子弹落在广岛的一秒钟
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">13953</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">83</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox">
+						<a href="#" class="videoPic">
+							<img src="images/1100641F464EEDD4C85C0205499115B74BEDBD-9E30-B0F4-A1F0-356E09984DEE.jpg" class="preview">
+							<span class="time">170:21</span>
+						</a>
+						<a href="#" class="videoTitle">
+							人大教授周孝正第三弹 《如何面对现代高风险的社会》
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">2886</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">4</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="videoBox videoBoxLast">
+						<a href="#" class="videoPic videoPicLast">
+							<img src="images/10044802n4xz.jpg" class="preview">
+							<span class="time">8:14</span>
+						</a>
+						<a href="#" class="videoTitle videoTitleLast">
+							【双语字幕】黑匣子实验室探访！NTSB【ACI字幕组】【720P】
+						</a>
+						<div class="info_hover">
+							<div class="info_hoverLeft">
+								<div class="icon playCircleIcon"></div>
+								<span class="numStyle">3511</span>
+							</div>
+							<div class="info_hoverRight">
+								<span class="numStyle">5</span>
+								<div class="icon commentIcon"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div id="zhuijuArea">
+				<div class="rightTitle">
+					<div class="rightTitleBg"></div>
+					<div class="right">
+						<a class="tab active" tabid="1">日剧</a>
+						<a class="tab" tabid="2">美剧</a>
+					</div>
+				</div>
+				<div class="zhuiju rightContent">
+					<div class="block" id="block_zhuiju">
+						<div class="page1 page active">
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/15153136kaia.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">孤独的美食家第四季</a>
+								<span class="update">更新于8月8日(星期五) 9时30分</span>
+							</div>
+							<div class="unit unit-middle">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/221041380ei0.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">信长的主厨2</a>
+								<span class="update">更新于8小时前</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/15153941582i.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">水球不良少年</a>
+								<span class="update">更新于7小时前</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/15154053c95h.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">同窗生～人生谈三次恋爱</a>
+								<span class="update">更新于前天 12时05分</span>
+							</div>
+							<div class="unit unit-middle">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/151542133os3.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">年轻人们2014</a>
+								<span class="update">更新于8月7日(星期四) 16时14分</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/15154343eosi.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">麻辣教师GTO第二季</a>
+								<span class="update">更新于7小时前</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/09114119rtxc.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">家族狩猎</a>
+								<span class="update">更新于9小时前</span>
+							</div>
+							<div class="unit unit-middle">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/09122906y00o.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">花子与安妮</a>
+								<span class="update">更新于前天 12时07分</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/071042058qah.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">MOZU</a>
+								<span class="update">更新于7月28日(星期一) 10时28分</span>
+							</div>
+						</div>
+						<div class="page2 page">
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/0911390729gg.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">闪电侠 </a>
+								<span class="update">更新于7月9日(星期三) 11时34分</span>
+							</div>
+							<div class="unit unit-middle">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/09114630yzrk.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">24小时:再活一天</a>
+								<span class="update">更新于7月28日(星期一) 11时02分</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/09114840g4ai.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">穹顶之下第二季</a>
+								<span class="update">更新于7小时前</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/07102850gkcf.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">末日孤舰</a>
+								<span class="update">更新于前天 12时05分</span>
+							</div>
+							<div class="unit unit-middle">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/07103133zj5s.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">权欲</a>
+								<span class="update">更新于8月7日(星期四) 16时14分</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/07102938flgs.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">昭雪 第二季 </a>
+								<span class="update">更新于7小时前</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/08182458g3en.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">陨落星辰第四季</a>
+								<span class="update">更新于9小时前</span>
+							</div>
+							<div class="unit unit-middle">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/0710432527wc.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">圣域</a>
+								<span class="update">更新于前天 12时07分</span>
+							</div>
+							<div class="unit">
+								<a href="#" class="zhuijuPicArea">
+									<img src="images/07104247e4ad.jpg" class="preview_ju">
+									<div class="icon"></div>
+								</a>
+								<a href="#" class="juming">暴君</a>
+								<span class="update">更新于7月28日(星期一) 10时28分</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="leftGuangGao">
+				<a href="#">
+					<img src="images/10105232wxj1.png" width="280px" height="96px">
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="footer">
+		<div id="footerInner">
+			<div class="footerLeft">
+				<div class="footerLogo">
+					<div class="avatar-ac-footer">
+						<img src="images/biaoqing/11.png" id="changeBiaoqing">
+						<div class="rightTop">0</div>
+					</div>
+					<a class="logo-ac-footer"></a>
+				</div>
+				<div class="webInfo">
+					<span class="webInfoWords">
+						本站不提供任何视听上传服务</br>
+						所有内容均来自视频分享站点所提供的公开引用资源</br></br>
+						Copyright © 2007-2014 AcFun. 保留所有权利</br>
+					</span>
+				</div>
+			</div>
+			<div class="unit">
+				<span class="footerWhiteWords">关于我们</span>
+				<a href="#">关于AcFun弹幕视频网</a>
+				<a href="#">联系我们</a>
+				<a href="#">加入我们</a>
+				<a href="#">官方新浪微博</a>
+				<a href="#">官方腾讯微博</a>
+			</div>
+			<div class="unit">
+				<span class="footerWhiteWords">问题反馈</span>
+				<a href="#">建议和反馈</a>
+				<a href="#">违规举报</a>
+				<a href="#">用户协议</a>
+				<a href="#">免责声明</a>
+			</div>
+			<div class="unit">
+				<span class="footerWhiteWords">功能</span>
+				<a href="#">网站地图</a>
+				<a href="#">帮助手册</a>
+				<a href="#">移动客户端</a>
+				<a href="#">表情包下载</a>
+			</div>
+		</div>
+		<div class="c"></div>
+	</div>
+</body>
+</html>

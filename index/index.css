@@ -1,0 +1,33 @@
+*{margin:0; padding: 0;background-color: #fdf6e3}
+img{border: 0;}
+ul,li{list-style: none;}
+
+
+
+#mainBody{width: 1000px;height: 2000px; margin: auto; }
+#Title{width:500px; height:100px; margin: 20px auto auto auto;line-height: 100px; text-align: center; border-top: 2px solid #595959; border-bottom: 1px solid #595959;}
+#TitleWords{color:#3b382e;font-size:30px; font-family:宋体; text-decoration: none;}
+#WorksContent{width: 760px; height:auto;margin: 20px auto 0 auto; position: relative; }
+#WorksContent:after{width: 0;height: 0; display: block; content: ".";visibility: hidden; clear: both;}
+
+.work{ width: 150px;height: 170px; float: left; margin:20px;}
+.showWork{width: 150px;height: 150px;margin: 0; display: table;}
+
+.showWork a{display: block; margin:auto; width:100%;height: 100%; display: table-cell;vertical-align: middle; text-align: center;}
+
+.swDescription{width: 150px;height: 18px; font-size: 14px; text-align: center; }
+.descriptionWords{color:#3b382e; text-decoration: none;}
+.descriptionWords:hover{text-decoration: underline; color: #5a5a5a;}
+
+#qq{ width: 150px;height: 170px; float: left; margin:20px;}/*border: 1px solid #bfbdb6;*/
+#avada{ width: 150px;height: 20px; float: left; margin:20px; padding: 70px 0 70px 0;}
+#back{width: 50px;height: 30px;line-height: 30px; font-size: 14px; text-align: center; }
+.showWork1{width: 100px;height: 80px;margin: 20px 0 0 10px;}
+.shouye{color: #5a5a5a; text-decoration: none;}
+.shouye:hover{text-decoration: underline;}
+
+#Acfun{ width: 150px;height: 20px; float: left; margin:20px; padding: 70px 0 70px 0;}
+.acLogo{width: 180px; height: 64px;cursor: pointer; background-image: url("images/sprite-guide.png"); background-repeat: no-repeat;position: absolute; left:360px;top: 100px;}
+
+#webqq{ width: 150px;height: 20px; float: left; margin:20px; padding: 70px 0 0px 0;position: absolute; left:580px;top: -20px;}
+.qqlogo{width: 180px; height: 64px;cursor: pointer; background-repeat: no-repeat;}

@@ -1,0 +1,436 @@
+body {color: #222;overflow: hidden;height: 100%;width: 100%;line-height: 1.666;font-size: 12px;background: #fff;}
+body, input, textarea {outline: none; font-family: 'Microsoft Yahei',verdana;}
+*{margin: 0; padding: 0;}
+ol,ul,li{list-style: none;}
+a{color: #4D677D;outline: none; text-decoration: none; cursor: pointer;}
+img{border: 0;}
+h1, h2, h3, h4, h5, h6, th {font-size: 100%;font-weight: 400;}
+header, footer, section, aside, article, nav, hgroup, figure, figcaption, body, h1, h2, h3, h4, h5, h6, ul, ol, li, form, p, dl, dt, dd, blockquote, legend, table, th, td, fieldset, menu, pre {
+margin: 0;padding: 0;}
+strong, b {font-weight: bold;}
+li {display: list-item;text-align: -webkit-match-parent;}
+::-webkit-input-placeholder { color: #6B89A1;cursor: text;font-size: 12px; font-weight: normal;}
+
+.tG0, .kl0:hover .kJ0, .kJ0, .pm1 .nui-ico, .kk0, .md0 .nui-ico, .tT0 .nui-tree-item-symbol .nui-ico-rArr, .tT0 .nui-tree-item-symbol .nui-ico-dArr, .ra0, .qE0, .rW2, .rS0, .rq0, .qp0, .hC0, .ga0, .tT0 .nui-tree-item-label-hover, .tT0 .nui-tree-item-label:hover, .tT0 .nui-tree-item-label-selected, .tT0 .nui-tree-item-label-selected:hover, .sJ0, .tA0, .rC0 .nui-ico, .mE0, .kA0, .tA0 .nui-tabs-item-close .nui-ico, .tA0 .nui-ico-compose, .gWel-tabs-panel-ctrl .gWel-ico, .nui-ico-inSkin, .fn-bg {
+-webkit-background-size: auto;background-size: auto;}
+
+.gWel-tabs-panel-ctrl .gWel-ico, .tT0 .nui-tree-item-label-hover, .tT0 .nui-tree-item-label:hover, .tT0 .nui-tree-item-label-selected, .tT0 .nui-tree-item-label-selected:hover, .sJ0, .tA0, .rW2, .tG0, .kl0:hover .kJ0, .kJ0, .pm1 .nui-ico, .kk0, .md0 .nui-ico, .tT0 .nui-tree-item-symbol .nui-ico-rArr, .tT0 .nui-tree-item-symbol .nui-ico-dArr, .ra0, .qE0, .rS0, .rq0, .qp0, .hC0, .ga0, .rC0 .nui-ico, .mE0, .kA0, .tA0 .nui-tabs-item-close .nui-ico, .tA0 .nui-ico-compose, .nui-ico-inSkin, .fn-bg {
+background-image: url("images/c8bc7e4523e90176367e4d50dd322354d6e63479.png");background-repeat: no-repeat;}
+
+.gWel-tabs-panel-ctrl .gWel-ico, .tT0 .nui-tree-item-label-hover, .tT0 .nui-tree-item-label:hover, .tT0 .nui-tree-item-label-selected, .tT0 .nui-tree-item-label-selected:hover, .sJ0, .tA0, .rW2, .tG0, .kl0:hover .kJ0, .kJ0, .pm1 .nui-ico, .kk0, .md0 .nui-ico, .tT0 .nui-tree-item-symbol .nui-ico-rArr, .tT0 .nui-tree-item-symbol .nui-ico-dArr, .ra0, .qE0, .rS0, .rq0, .qp0, .hC0, .ga0, .rC0 .nui-ico, .mE0, .kA0, .tA0 .nui-tabs-item-close .nui-ico, .tA0 .nui-ico-compose, .nui-ico-inSkin, .fn-bg {
+background-image: url("images/4144587368aff21813ef8e37035a4c047fc1db34.png");background-repeat: no-repeat;}
+
+.nui-switch, .nui-calendar, .nui-sup, .nui-progress, .nui-normalTips, .nui-tag, .nui-addr-symbol, .nui-addr-email, .nui-addr-name, .nui-addr, .nui-inlineGap, .nui-select, .nui-chk, .nui-ipt, .nui-ico, .nui-btn, .nui-splitBtn-text, .nui-btn-text, .nui-fIBlock {
+display: inline-block;vertical-align: middle;}
+
+.nui-form-item-sub:before, .nui-form-item-sub:after, .nui-form-item:before, .nui-form-item:after, .nui-contacts:before, .nui-contacts:after, .nui-chkGroup:before, .nui-chkGroup:after, .nui-msgbox-iconText:before, .nui-msgbox-iconText:after, .nui-tag:before, .nui-tag:after, .nui-container:before, .nui-container:after, .nui-toolbar:before, .nui-toolbar:after, .nui-tabs:before, .nui-tabs:after, .nui-fClear:before, .nui-fClear:after {
+clear: both;content: ".";font-size: 0;display: block;height: 0;overflow: hidden;visibility: hidden;}
+.nui-form-item-sub:before, .nui-form-item-sub:after, .nui-form-item:before, .nui-form-item:after, .nui-contacts:before, .nui-contacts:after, .nui-chkGroup:before, .nui-chkGroup:after, .nui-msgbox-iconText:before, .nui-msgbox-iconText:after, .nui-tag:before, .nui-tag:after, .nui-container:before, .nui-container:after, .nui-toolbar:before, .nui-toolbar:after, .nui-tabs:before, .nui-tabs:after, .nui-fClear:before, .nui-fClear:after {
+clear: both;content: ".";font-size: 0;display: block;height: 0;overflow: hidden;visibility: hidden;}
+
+
+/*header代码开始*/
+/*header1 start*/
+.frame-head {background-color:#dadcde; height: 86px;position: relative;z-index: 25;box-shadow: 0 1px 2px 0 RGBA(0,0,0,.3);min-width: 960px;width: 100%;}
+.frame-default .frame-head {position: absolute;left: 0;right: 0;top: 0;width: 100%;}
+.tY0 {position: relative;z-index: 25;}
+.tG0 {cursor: pointer;position: absolute;z-index: 8;left: 12px;top: 12px;}
+.sj0 {background-position: -208px 0;}
+.rP0 {visibility: hidden;}
+.tO0 {z-index: 10;position: absolute;left: 200px;top: 13px;}
+.pR0 {padding-top: 1px;font-weight: 700;position: relative;z-index: 3;}
+.pR0, .rZ0 {float: left;}
+.nui-txt-link, .nui-txt-cLink a, .nui-txt-cLink, .nui-dateLayer-calendar b {color: #4D677D!important;}
+.nui-txt-link {outline: 0;cursor: pointer;padding: 2px 4px 4px;text-decoration: none;border-radius: 3px;}
+.kl0 {zoom: 1;line-height: 14px;float: left;position: relative;z-index: 2;}
+.kl0 {color: #4D677D!important;}
+.hM0 {margin-right: 2px;margin-left: 2px;}
+.kl0 .nui-ico {margin-left: 0px;margin-top: -1px;background-repeat: no-repeat;background-position: 0;width: 10px;height: 8px;}
+.nui-ico, .nui-txt-fNui {font-family: nui!important;font-size: 12px;font-style: normal;font-weight: 400;line-height: normal!important;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.nui-ico {font-weight: 400;text-align: center;line-height: normal;overflow: hidden;}
+.nui-ico-unfold, .nui-ico-fold, .nui-ico-angle, .nui-ico-dArr, .nui-ico-uArr, .nui-ico-lArr, .nui-ico-rArr {font-size: 0;line-height: 999px;overflow: hidden;}
+.nui-ico-dArr, .nui-ico-angle, .nui-ico-angle-d, .nui-ico-unfold {width: 7px;height: 6px;}
+.kl0:hover .nui-ico {background-position: -96px -224px;}
+.nui-txt-link:hover, .nui-txt-link-hover, .nui-txt-link:focus, .nui-txt-link-focus, .nui-dateLayer-calendar-focusCell b, .nui-dateLayer-calendar-focusCell b:hover {
+background-color: #0F6099!important;color: #fff!important;}
+.rZ0 {padding-top: 0;position: relative;z-index: 2;}
+.pn1 {margin: 1px 6px 0;line-height: normal;opacity: .3;filter: alpha(opacity=30);position: relative;z-index: 2;}
+.hj1 {z-index: 3;position: relative;}
+.lP1 {vertical-align: top;line-height: 16px;margin: 0px 4px;width: 53px;height: 22px;position: relative;zoom: 1;top: -2px;visibility: visible;cursor: pointer;background: url("images/loading.gif") no-repeat;}
+.yixinicon{display:block;height:21px;width:31px;padding:1px 0 0 22px;white-space:nowrap;font-size:12px;line-height:21px;background-repeat:no-repeat;background-image:url("images/yixin-ndft.png");background-position:0 0px;}
+.yixinicon span{color: #1abd8c;}
+.sh0 {color: #4D677D!important;}
+.sU0 {position: absolute;z-index: 7;top: 12px;right: 12px;height: 28px;width: 238px;}
+.ru0 {background-color: #fff;opacity: .5;filter: alpha(opacity=50);border-radius: 28px;position: absolute;width: 100%;height: 28px;left: 0;top: 0;}
+.md0,.kk0 {position: absolute;left: 8px;top: 7px;background-position: -96px -256px;width: 15px;height: 16px;}
+.nui-ipt {-webkit-transition: all .3s;-moz-transition: all .5s;-o-transition: all .5s;transition: all .5s;border-radius: 3px;font-size: 12px;line-height: 1.666;position: relative;zoom: 1;padding: 3px 8px;height: 20px;border: 1px solid #bbb;background: #fff;box-shadow: 1px 1px 2px rgba(0,0,0,.1) inset;}
+.sU0 .nui-ipt {background: 0;border: 0;box-shadow: none;position: absolute;left: 27px;top: 0;padding: 0;margin: 0;top: 6px;height: auto;line-height: 0;font-size: 0;z-index: 3;}
+.nui-ipt-input {font-size: 12px;padding: 0;margin: 0;-margin-top: 1px;border: 0;outline: 0;background: transparent;}
+.md0 {left: auto;z-index: 2;right: 0;top: 0;height: 100%;width: 25px;line-height: 0;opacity: 1;}
+.md0 .nui-ico {width: 12px;height: 9px;background-position: -128px -256px;position: absolute;top: 11px;right: 11px;}
+/*header1 end*/
+
+/*header2 start*/
+.tV0 {height: 34px;position: absolute;bottom: 0;width: 100%;left: 0;z-index: 5; border-bottom: 2px solid #4D677D;}
+.wo0 {line-height: 0;font-size: 0;height: 34px;overflow: hidden;position: relative;margin-right: 36px;z-index: 2;}
+.sZ0 {position: absolute;left: -800px;}
+.nui-tabs {font-size: 12px;line-height: 1.666;}
+.nui-tabs-item {float: left;text-align: center;padding: 0 15px;border: solid #ccc;border-width: 1px 1px 0;margin-right: -1px;cursor: pointer;outline: 0;}
+.nui-tabs-item {-webkit-transition-property: width,opacity;-moz-transition-property: width,opacity;-ms-transition-property: width,opacity;-o-transition-property: width,opacity;transition-property: width,opacity;-webkit-transition-duration: .2s;-moz-transition-duration: .2s;-ms-transition-duration: .2s;-o-transition-duration: .2s;transition-duration: .2s;}
+.nui-tabs-item {opacity: 1;}
+.tA0:hover{background-position: -208px -448px;}
+.tz0 {left: 12px;border-width: 0;margin-bottom: 0px;position: absolute;bottom: 0;}
+.tA0 {outline: 0;cursor: pointer;float: left;position: relative;z-index: 3;height: 22px;border-width: 1px 1px 0;border-style: solid;width: 91px;text-align: center;line-height: normal;font-size: 14px;
+	padding: 7px 20px 2px 8px;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;-khtml-user-select: none;user-select: none;margin: 0;border-bottom-width: 0!important;}
+.sJ0, .tA0 {background-repeat: repeat-x;}
+.tA0 {color: #262626;border-color: #FDFEFE;}
+.qv0 {border-top-left-radius: 3px;}
+.tA0 {background-position: 0 -448px;}
+.nui-btn, .nui-fNoSelect {-moz-user-select: none;-webkit-user-select: none;-khtml-user-select: none;user-select: none;}
+.tA0 .nui-tabs-item-text {display: block;width: 100%;white-space: nowrap;position: relative;overflow: hidden;line-height: 16px;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;-khtml-user-select: none;user-select: none;}
+.oZ0 .nui-tabs-item-text {margin-left: 6px;}
+.tA0 .nui-tabs-item-text {display: block;width: 100%;white-space: nowrap;position: relative;overflow: hidden;line-height: 16px;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;-khtml-user-select: none;user-select: none;}
+.ua-notIE .tA0 .nui-tabs-item-text, .ua-ie6 .tA0 .nui-tabs-item-text, .ua-ie7 .tA0 .nui-tabs-item-text {text-overflow: ellipsis;-o-text-overflow: ellipsis;}
+.nui-tabs-item-selected{background-color: #4D677D; color: #fff; font-weight: bold;}
+.tz0 .nui-tabs-item-selected {color: #FFF!important;border-color: #4D677D!important;}
+.tz0 .nui-tabs-item-selected {background-position: -208px -496px;}
+.mE0, .kA0 {position: absolute;z-index: 3;width: 1px;right: -1px;top: 0;height: 32px;}
+.kA0 {background-position: -192px -288px;}
+.mE0 {right: auto;left: -1px;}
+.mE0 {background-position: -193px -288px;}
+
+.rC0, .rJ0 {border-top-right-radius: 3px;}
+.rC0 {padding: 0!important;font-size: 12px;width: 27px;height: 29px;margin-top: 2px;line-height: 29px;}
+.rC0 .nui-ico {background-position: 0 -256px;position: absolute;top: 13px;left: 9px;width: 8px;height: 5px;}
+
+.APP-musicBox {width: 24px; height: 24px; cursor: pointer; background-color: #fff;border-radius: 4px; position: absolute!important;top: -1px;left: auto;right: 12px;line-height: 0;font-size: 0;z-index: 1;}
+.APP-musicBox-img{ width: 24px; height: 24px;}
+/*header2 end*/
+
+/*左侧快捷菜单*/
+.frame-nav {width: 201px;position: absolute;left: 0;bottom: 0;top: 86px;z-index: 24; border-right: 1px solid #cfd8e0;}
+.frame-nav-top {position: relative;zoom: 1;}
+.dvNavTop{position: relative;zoom: 1;}
+.dvNavTopul{height: 38px;position: relative;z-index: 1;}
+.dvNavTopul .js-component-component{cursor: pointer;float: left; width: 100px;outline: 0;padding: 0;display: inline-block;height: 38px;font-size: 15px;font-weight: 700;line-height: 36px;position: relative;z-index: 1;background-image: url("images/4144587368aff21813ef8e37035a4c047fc1db34.png");background-repeat: no-repeat;}
+.dvNavTopul .dvNavTopli1{border-right: 1px solid #ccc;}
+.dvNavTopliIcon{position: absolute;left: 24px;top: 10px;line-height: 0;height: 15px;top: 11px;}
+.hC0 {width: 25px;height: 20px;background-position: 0 -192px;}
+.nui-ico, .nui-txt-fNui {font-family: nui!important;font-size: 12px;font-style: normal;font-weight: 400;line-height: normal!important;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.nui-ico {font-weight: 400;text-align: center;line-height: normal;overflow: hidden;}
+.dvNavTopliWord{color: #4D677D;margin-left: 46px;}
+.ga0 {width: 25px;height: 20px;background-position: -64px -192px;}
+
+/*滚动条样式*/
+.nui-scroll{position: relative;overflow: auto;}
+.nui-scroll::-webkit-scrollbar {width: 8px;height: 8px;}
+.nui-scroll::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,.05);border-radius: 10px;-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1);}
+.nui-scroll::-webkit-scrollbar-track {border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);}
+/*滚动条样式结束*/
+.dvNavDown { background-image: url("images/t.gif");background-color: #e8ecf1; position: absolute;top:38px;bottom: 0;overflow: hidden;width: 201px;zoom: 1;}
+.frame-navInner .nui-tree {zoom: 1;margin-left: 0;position: relative;overflow: hidden;color: #262626;}
+.dvNavDown .nui-tree {padding-bottom: 56px;padding-top: 8px;}
+.nui-tree-item {clear: both;font-size: 12px;line-height: 1.666;position: relative;zoom: 1;}
+.frame-navInner .nui-tree-item {outline: 0;white-space: nowrap;}
+.dvNavDown .nui-tree-item {zoom: 1;position: relative;width: 201px;}
+.frame-navInner .nui-tree-item-label {zoom: 1;outline: 0;cursor: pointer;height: 28px;line-height: 28px;padding-left: 22px;margin-right: 1px;white-space: nowrap;position: static;vertical-align: middle;vertical-align: middle;}
+.frame-navInner .nui-tree-item-label:hover{background-image: url("images/4144587368aff21813ef8e37035a4c047fc1db34.png");background-repeat: no-repeat;background-position: 0 -416px;}
+.frame-navInner .nui-tree-item-label-selected,.frame-navInner .nui-tree-item-label-selected:hover{background-image: url("images/4144587368aff21813ef8e37035a4c047fc1db34.png");background-repeat: no-repeat;font-weight: 700;background-position: -208px -416px;}
+.frame-navInner .nui-tree-item-inlineIcon {vertical-align: middle;line-height: 0;font-size: 0;display: inline-block;height: 15px;}
+.frame-navInner .nui-tree-item-inlineIcon .nui-ico {margin-top: 0; margin-left: 4px;}
+.nv1 {margin-right: 3px;}
+.nui-ico-flags, .nui-ico-flag {width: 11px;height: 12px;}
+.nui-ico {font-weight: 400;text-align: center;line-height: normal;overflow: hidden;}
+.nui-ico-flag, .nui-ico-flag-1 {background: url("images/redFlag.png") no-repeat;}
+.nui-tree-item-text {position: relative;z-index: 1;}
+.nui-ico-todo-transparent {background:url("images/waitFor.png") no-repeat;margin-right: 1px;width: 13px;height: 13px;}
+.nui-ico-contacter, .nui-ico-contacter-fold {margin-right: 0px;width: 14px;height: 14px;background: url("images/contacter.png") no-repeat;}
+.nui-tree-item-symbol {position: absolute;left: 0;top: 3px;width: 7px;height: 7px;overflow: visible;}
+.frame-navInner .nui-tree-item-symbol {left: 12px;top: 11px;height: 8px;width: 8px;font-size: 0;line-height: 0;}
+.frame-navInner .nui-tree-item-symbol .nui-ico-rArr{width: 5px;height: 8px;background-position: -64px -256px;background-image: url("images/4144587368aff21813ef8e37035a4c047fc1db34.png");background-repeat: no-repeat;}
+.frame-navInner .nui-tree-item-symbol-fold {-webkit-transition-property: all;-moz-transition-property: all;-ms-transition-property: all;-o-transition-property: all;transition-property: all;-webkit-transition-duration: .3s;-moz-transition-duration: .3s;-ms-transition-duration: .3s;-o-transition-duration: .3s;transition-duration: .3s;}
+.nui-tree-item-symbol .nui-ico {vertical-align: top;}
+.frame-navInner .nui-tree-item-symbol-fold {margin-top: 0;position: relative;top: -1px;}
+
+
+/*主窗口*/
+/*主窗口header部分 开始*/
+.frame-main{bottom: 0;right: 0;position: absolute;left: 201px;z-index: 23;top: 86px;}
+.frame-main-cont-head, .frame-main-cont-body {background-repeat: repeat;background-color: #fff;}
+.frame-main-cont-head {height: 46px;background-repeat: repeat;}
+.frame-main-cont-head-shadow, .frame-fShadow {-webkit-box-shadow: 1px 2px 6px RGBA(0,0,0,.1);-moz-box-shadow: 1px 2px 6px RGBA(0,0,0,.1);-ms-box-shadow: 1px 2px 6px RGBA(0,0,0,.1);-o-box-shadow: 1px 2px 6px RGBA(0,0,0,.1);box-shadow: 1px 2px 6px RGBA(0,0,0,.1);position: relative;z-index: 2;}
+.frame-main-cont-head .nui-toolbar {padding: 10px 10px 0;}
+.nui-toolbar-item {float: left;margin-right: 7px;line-height: 30px;}
+
+.nui-btn {line-height: normal;position: relative;font-size: 12px;color: #555;border-radius: 3px;outline: 0;}
+.nui-btnGroup .nui-btn, .nui-toolbar-item .nui-btn {line-height: normal;float: left;margin-right: -1px;}
+.nui-btn-icon {position: absolute;left: 12px;top: 6px;cursor: pointer;line-height: 0;}
+.nui-btn-hasOnlyIcon .nui-btn-icon {left: 8px;}
+.nui-chk {font-size: 12px;line-height: 14px;position: relative;zoom: 1;cursor: default;outline: 0;}
+.nui-btn-icon .nui-chk {position: absolute;left: 1px;top: 1px;}
+.nui-chk-symbol {margin-right: 5px;vertical-align: middle;}
+.nui-chk-symbol, .nui-chk-symbol .nui-ico {float: left;}
+.nui-ico-checkbox {width: 14px;height: 14px;background: url("images/checkboxNotSelected.png") no-repeat;}
+.nui-splitBtn-text, .nui-splitBtn-arr, .nui-btn-text {vertical-align: top;text-align: center;height: 26px;line-height: 25px;padding: 0 12px;border: 1px solid #999;border-radius: 3px;cursor: pointer;}
+.nui-select, .nui-splitBtn-text, .nui-splitBtn-arr, .nui-btn-text {background: url("images/btn-text.png") repeat-x;}
+.nui-btn-hasOnlyIcon .nui-btn-text {padding-left: 12px;padding-right: 12px;}
+.nui-dropdownBtn .nui-btn-text {padding-right: 24px;}
+.nui-dropdownBtn-hasOnlyIcon .nui-btn-text {padding-right: 32px;}
+.nui-dropdownBtn-arr {position: absolute;top: 12px;right: 9px;cursor: pointer;}
+.nui-ico-dArr, .nui-ico-angle, .nui-ico-angle-d, .nui-ico-unfold {width: 7px;height: 6px;background: url("images/down.png") no-repeat;}
+.nui-dropdownBtn-arr .nui-ico {vertical-align: top;}
+.nui-btnGroup .nui-btn:last-of-type, .nui-btnGroup .nui-btn:last-of-type .nui-btn-text, .nui-btnGroup .nui-btn:last-of-type .nui-splitBtn-arr, .nui-toolbar-item .nui-btn:last-of-type, .nui-toolbar-item .nui-btn:last-of-type .nui-btn-text, .nui-toolbar-item .nui-btn:last-of-type .nui-splitBtn-arr {
+border-radius: 0 3px 3px 0;}
+.nui-btnGroup .nui-btn:first-of-type, .nui-btnGroup .nui-btn:first-of-type .nui-btn-text, .nui-btnGroup .nui-btn:first-of-type .nui-splitBtn-text, .nui-toolbar-item .nui-btn:first-of-type, .nui-toolbar-item .nui-btn:first-of-type .nui-btn-text, .nui-toolbar-item .nui-btn:first-of-type .nui-splitBtn-text {
+border-radius: 3px 0 0 3px;}
+.nui-btnGroup .nui-btn, .nui-btnGroup .nui-btn-text, .nui-btnGroup .nui-splitBtn-text, .nui-btnGroup .nui-splitBtn-arr, .nui-toolbar-item .nui-btn, .nui-toolbar-item .nui-btn-text, .nui-toolbar-item .nui-splitBtn-text, .nui-toolbar-item .nui-splitBtn-arr {
+border-radius: 0;}
+.nui-btnGroup .nui-btn:only-of-type, .nui-btnGroup .nui-btn:only-of-type .nui-btn-text, .nui-toolbar-item .nui-btn:only-of-type, .nui-toolbar-item .nui-btn:only-of-type .nui-btn-text {
+border-radius: 3px;}
+.nui-btn:hover {box-shadow:0 1px 3px rgba(0,0,0,0.2);border-color: #787878;background: url("images/btn-text.png") repeat-x;}
+
+.nui-toolbar-ext {float: right;}
+.nui-toolbar-ext .nui-toolbar-item {margin-right: 1px;margin-left: 8px;}
+.nui-calendar {position: relative;cursor: pointer;line-height: normal;width: 24px;height: 24px;}
+.nui-calendar-hover, .nui-calendar:hover, .nui-calendar-active, .nui-calendar:active {width: 22px;height: 22px;border: 1px solid #989898;border-radius: 3px;}
+.nui-toolbar-item .nui-calendar, .nui-toolbar-item .nui-ipt, .nui-toolbar-item .nui-select {float: left;}
+.nui-toolbar-item .nui-calendar {margin-top: 3px;}
+.nui-ico-calendar {width: 15px;height: 15px;background: url("images/calendarImg.png") no-repeat;}
+.nui-calendar .nui-ico {float: left;margin-left: 4px;margin-top: 4px;}
+.nui-select {text-align: left;border-radius: 3px;line-height: 26px;padding: 0 24px 0 10px;position: relative;font-size: 12px;border: 1px solid #999;color: #555;cursor: pointer;zoom: 1;outline: 0;}
+.nui-simpleSelect {line-height: 22px;color: #777;padding: 1px 24px 1px 10px;border: 0;background: transparent;}
+.nui-toolbar-item .nui-calendar, .nui-toolbar-item .nui-ipt, .nui-toolbar-item .nui-select {float: left;}
+.nui-toolbar .nui-simpleSelect {margin-top: 3px;}
+.nui-select-text {text-align: left;}
+.nui-btnGroup .nui-roundBtn:first-of-type, .nui-btnGroup .nui-roundBtn:first-of-type .nui-btn-text, .nui-toolbar-item .nui-roundBtn:first-of-type, .nui-toolbar-item .nui-roundBtn:first-of-type .nui-btn-text {
+border-radius: 14px 0 0 14px!important;}
+.nui-btnGroup .nui-roundBtn:last-of-type, .nui-btnGroup .nui-roundBtn:last-of-type .nui-btn-text, .nui-toolbar-item .nui-roundBtn:last-of-type, .nui-toolbar-item .nui-roundBtn:last-of-type .nui-btn-text {
+border-radius: 0 14px 14px 0!important;}
+.nui-btnGroup .nui-roundBtn:first-of-type .nui-btn-icon, .nui-toolbar-item .nui-roundBtn:first-of-type .nui-btn-icon {
+left: 13px;right: auto;}
+.nui-btnGroup .nui-btn, .nui-toolbar-item .nui-btn {line-height: normal;float: left;margin-right: -1px;}
+.nui-roundBtn {border-radius: 13px!important;text-align: center;}
+.nui-btn {line-height: normal;position: relative;font-size: 12px;color: #555;border-radius: 3px;outline: 0;}
+.nui-btn-disabled .nui-btn-icon {cursor: default;color: #ccc!important;}
+.nui-ico-prev {width: 13px;height: 12px;background: url("images/leftArrow.png") no-repeat;}
+.nui-roundBtn .nui-btn-icon {left: 8px;top: 8px;}
+.nui-roundBtn .nui-ico-next, .nui-roundBtn .nui-ico-prev {margin: 0 0 0 -1px;}
+.nui-roundBtn-hasIcon .nui-btn-text{width: 12px;}
+.nui-btnGroup .nui-roundBtn:last-of-type .nui-btn-icon, .nui-toolbar-item .nui-roundBtn:last-of-type .nui-btn-icon {
+left: auto;right: 13px;}
+.nui-btn-disabled .nui-btn-icon {cursor: default;color: #ccc!important;}
+.nui-ico-next {width: 13px;height: 12px;background: url("images/RightArrow.png") no-repeat;}
+.nui-btn-disabled .nui-ico-next{background-image: url("images/diabledRightArrow.png");}
+
+.nui-btnGroup .nui-roundBtn:only-of-type, .nui-btnGroup .nui-roundBtn:only-of-type .nui-btn-text, .nui-toolbar-item .nui-roundBtn:only-of-type, .nui-toolbar-item .nui-roundBtn:only-of-type .nui-btn-text {
+border-radius:100%!important;}
+.nui-btnGroup .nui-btn, .nui-toolbar-item .nui-btn {line-height: normal;float: left;margin-right: -1px;}
+.nui-btn:hover, .nui-btn-hover {box-shadow: 0 1px 3px rgba(0,0,0,.2);}
+.nui-roundBtn {border-radius: 13px!important;text-align: center;}
+.nui-btnGroup .nui-roundBtn:only-of-type .nui-btn-icon, .nui-toolbar-item .nui-roundBtn:only-of-type .nui-btn-icon {left: 8px;right: auto;}
+
+.nui-ico-setting {width: 14px;height: 14px;background: url("images/setupImg.png") no-repeat;}
+.nui-roundBtn .nui-ico-option2, .nui-roundBtn .nui-ico-setting {margin: -1px 0 0 -1px;}
+.nui-btnGroup .nui-roundBtn:only-of-type .nui-btn-text, .nui-toolbar-item .nui-roundBtn:only-of-type .nui-btn-text {
+padding: 0 13px!important;}
+.nui-roundBtn-setting .nui-btn-text {padding: 0 13px;width: 0px; line-height: 26px;height: 26px;border-radius: 13px!important;overflow: hidden;}
+
+/*主窗口header部分 结束*/
+.frame-main-cont-head, .frame-main-cont-body {background-repeat: repeat;background-color: #fff;}
+.frame-default .frame-main-cont-body {position: absolute;z-index: 1;overflow: auto;}
+.frame-auto .frame-main-cont-body {top: 46px;right: 0;bottom: 0;left: 0;}
+.tc0 {font-size: 14px;padding: 0 10px;padding-bottom: 50px;zoom: 1;-webkit-transition: all .3s ease-in-out;-moz-transition: all .3s ease-in-out;-o-transition: all .3s ease-in-out;-ms-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
+.ua-chrome .tc0 {overflow: hidden;}
+.tb0 {margin-top: 6px;padding-left: 12px;zoom: 1;border-bottom: 1px solid #4D677D;}
+.nui-title {position: relative;line-height: 28px;zoom: 1;}
+.nui-txt-tips {color: #999!important;}
+.nui-title-tips {margin-left: 10px;}
+.tb0 .nui-txt-link, .tb0 .nui-title-tips {font-size: 12px;margin-left: 0;}
+
+
+.tv01 {z-index: 1;position: relative;zoom: 1;}
+.rF0 {zoom: 1;}
+.nl0, .nl0 .im0, .nl0 .hV0 {-webkit-transition: background-color .3s ease-in-out;-moz-transition: background-color .3s ease-in-out;-o-transition: background-color .3s ease-in-out;-ms-transition: background-color .3s ease-in-out;transition: background-color .3s ease-in-out;}
+.nl0 {overflow: hidden;border-bottom: 1px solid #e0e0e0;position: relative;clear: both;width: 100%;height: 36px;vertical-align: baseline;line-height: 1.1em;cursor: pointer;background-color: #fff;}
+.gB0, .hV0, .il0, .dP0, .im0, .dS0 {padding-top: 10px;padding-bottom: 10px;}
+.nui-chk {font-size: 12px;line-height: 14px;position: relative;zoom: 1;cursor: default;outline: 0;}
+.cS0 {display: block;position: absolute;width: 25px;left: 8px;top: 0;height: 100%;zoom: 1;}
+.nui-chk-symbol {margin-right: 5px;vertical-align: middle;}
+.nui-chk-symbol, .nui-chk-symbol .nui-ico {float: left;}
+.gB0 .cS0 .nui-chk-symbol {top: 10px;}
+.gB0 .cS0 .nui-chk-symbol {top:10px;left: 5px;position: relative;}
+.cS0 .nui-chk-symbol {margin-top: 0;}
+.nui-ico, .nui-txt-fNui {font-family: nui!important;font-size: 12px;font-style: normal;font-weight: 400;line-height: normal!important;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+.nui-ico-unread {width: 14px;height: 10px;background: url("images/unreadImg.png") no-repeat;}
+.dT0 {position: absolute;left: 37px;top: 0;background-repeat: no-repeat;}
+.cR0, .dT0 {top: 9px;}
+.dS0 .nui-ico-drag, .cR0, .gB0 .nui-ico-mail, .gB0 .nui-ico-draft, .nl0 .nui-ico-unread, .nl0 .nui-ico-re, .nl0 .nui-ico-fw {
+margin-top: 4px;}
+.dP0 {width: 134px;overflow: hidden;position: absolute;top: 0;left: 72px;white-space: nowrap;text-overflow: ellipsis;}
+.gB0, .hV0, .il0, .dP0, .im0, .dS0 {padding-top: 10px;padding-bottom: 10px;}
+.kw0 .da0, .kw0 .ci0 {font-weight: 700;}
+.ci0 {height: 1.1em;margin-right: 4px;}
+.nui-user {white-space: nowrap;}
+.cC0 {position: absolute;left: 210px;top: 0;height: 29px;display: none;cursor: pointer;}
+.nui-ico-smartTrash {position: relative;width: 11px;height: 13px;overflow: visible;}
+.rF0:hover .cT0, .rF0:hover .dK0, .rF0:hover .dS0, .rF0:hover .cC0, .ik0 .dS0 {display: block;}
+.nui-ico-smartTrash-head, .sr1 {-webkit-transform-origin: right bottom;-webkit-transition: -webkit-transform 150ms ease-in-out;-moz-transform-origin: right bottom;-moz-transition: -moz-transform 150ms ease-in-out;-o-transform-origin: right bottom;-o-transition: -o-transform 150ms ease-in-out;-ms-transform-origin: right bottom;-ms-transition: -ms-transform 150ms ease-in-out;transform-origin: right bottom;transition: transform 150ms ease-in-out;}
+.cC0 .nui-ico {margin-top: 8px;}
+.nui-ico-smartTrash-head {transform-origin: right bottom;position: absolute;top: 0;left: 0;width: 11px;height: 3px;background: url("images/smartTrashheadImg.png") no-repeat;}
+.nui-ico-smartTrash-body {position: absolute;top: 4px;left: 0;width: 11px;height: 9px;background: url("images/smartTrashbodyImg.png") no-repeat;}
+.nui-ico-smartTrash:hover .nui-ico-smartTrash-head{transform:rotateZ(20deg); }
+
+
+.dU0 {position: absolute;left: 234px;top: 0;padding-top: 5px;height: 24px;cursor: pointer;}
+.cC0, .dU0 {top: -8px;}
+.nui-ico-flag-0 {background: url("images/whiteFlag.png") no-repeat;}
+.nui-ico-flags, .nui-ico-flag {width: 11px;height: 12px;margin-top: 12px;transform-origin: left bottom;}/*动画相关*/
+.dU0 .nui-ico-flag:hover{animation:1s myflag 1;-webkit-animation:1s myflag 1;-moz-animation:1s myflag 1;-o-animation:1s myflag 1;}
+
+.il0 {position: absolute;top: 0;left: 264px;right: 183px;height: 1.1em;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.gB0, .hV0, .il0, .dP0, .im0, .dS0 {padding-top: 10px;padding-bottom: 10px;}
+.ts1 .il0 {right: 265px;}
+.da0 {position: relative;margin-right: 4px;vertical-align: baseline;}
+.kw0 .da0, .kw0 .ci0 {font-weight: 700;}
+.nl0, .nl0 .im0, .nl0 .hV0 {-webkit-transition: background-color .3s ease-in-out;-moz-transition: background-color .3s ease-in-out;-o-transition: background-color .3s ease-in-out;-ms-transition: background-color .3s ease-in-out;transition: background-color .3s ease-in-out;}
+.hV0 {position: absolute;top: 0;right: -1px;background-color: #fff;height: 1.1em;width: 183px;}
+.gB0, .hV0, .il0, .dP0, .im0, .dS0 {padding-top: 10px;padding-bottom: 10px;}
+.ts1 .hV0 {width: 265px;}
+.es0 {text-align: right;padding-right: 2px;color: #bbb;width: 80px;float: right;display: none;font-size: 12px;}
+.ts1 .es0 {display: block;}
+.eO0 {text-align: right;padding-right: 2px;color: #bbb;width: 102px;float: right;font-size: 12px;}
+.dQ0 {width: 9px;float: right;height: 14px;position: relative;margin-left: 8px;overflow: hidden;}
+.nui-miniBtn, .nui-miniBtn .nui-btn-text {border-radius: 100%!important;text-align: center;line-height: 21px;width: 21px;height: 21px;}
+.cT0, .dK0 {float: right;display: inline;margin-left: 8px;position: relative;display: none;}
+.cT0, .dK0 {top: -4px;}
+.nui-miniBtn .nui-btn-icon {width: 21px;height: 21px;left: 0;top: 0;font-size: 12px;}
+.nui-ico-todo {width: 13px;height: 13px;background: url("images/waitFor.png") no-repeat;}
+.cT0 .nui-btn-icon .nui-ico {margin-left: 2px;margin-top: 5px;}
+.nui-miniBtn, .nui-miniBtn .nui-btn-text {border-radius: 100%!important;text-align: center;line-height: 21px;width: 21px;height: 21px;}
+.nui-miniBtn .nui-btn-text {padding: 0;font-size: 0;overflow: hidden;}
+.cT0, .dK0 {float: right;display: inline;margin-left: 8px;position: relative;display: none;}
+.nui-miniBtn .nui-btn-icon {width: 21px;height: 21px;left: 0;top: 0;font-size: 12px;}
+.dK0 .nui-btn-icon .nui-ico {margin-left: 2px;margin-top: 6px;}
+.nui-ico-tags {width: 7px;height: 12px;background: url("images/tagImg.png") no-repeat;}
+.nui-miniBtn .nui-btn-text {padding: 0;font-size: 0;overflow: hidden;}
+.nui-miniBtn, .nui-miniBtn .nui-btn-text {border-radius: 100%!important;text-align: center;line-height: 21px;width: 21px;height: 21px;}
+
+/*动态相关*/
+.nui-ico-checkbox-checked {background: url('images/checkboxSelected.png') no-repeat scroll 0% 0% transparent;}
+.nui-txt-flag1, .nui-txt-flag1 a {color: #C7284A !important;}
+
+/*标记为 下拉框*/
+.nui-menu {border-radius: 4px;text-align: left;line-height: 25px;padding: 7px 0;white-space: nowrap;position: absolute!important;left: 0;
+top: 0;z-index: 1000;border: 1px solid #bbb;box-shadow: 0 1px 3px rgba(0,0,0,.2);background: #fff;cursor: default;outline: 0;}
+.nui-msgbox, .nui-layer, .nui-mask, .nui-menu, .nui-ani-fadeIn {-webkit-animation: nui-fadeIn .3s;animation: nui-fadeIn .3s;}
+.nui-menu-item, .nui-menu-item-inner, .nui-menu-item-link {color: #555;}
+.nui-menu-item {position: relative;zoom: 1;cursor: pointer;outline: 0;}
+.nui-menu-item-inner, .nui-menu-item-link {display: block;text-decoration: none;padding: 0 30px 0 32px;position: relative;zoom: 1;}
+.nui-menu-item-link {cursor: pointer;}
+.nui-menu-item-icon{position: absolute; left: 8px; top: 8px;}
+
+.nui-split {color: #e0e0e0;clear: both;height: 0;font-size: 0;line-height: 0;overflow: hidden;border-width: 0 0 1px;border-style: solid;}
+.nui-menu-split {margin: 4px 0;border-color: #e9e9e9;}
+.nui-menu-item-icon .nui-ico.nui-ico-flag{margin-top: -2px;}
+
+.nui-menu-item:hover>.nui-menu-item-link, .nui-menu-item:active>.nui-menu-item-link, .nui-menu-item:focus>.nui-menu-item-link, .nui-menu-item-selected .nui-menu-item-link, .nui-menu-item-hover .nui-menu-item-link, .nui-menu-item-active .nui-menu-item-link, .nui-menu-item-focus .nui-menu-item-link, .nui-menu-item-link-hover, .nui-menu-item-link-active, .nui-menu-item-link-focus, .nui-menu-item-link:hover, .nui-menu-item-link:active, .nui-menu-item-link:focus {
+background-color: #E2E9F1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes myflag
+{
+0%   {transform: rotateZ(-10deg);}
+20%  {transform: rotateZ(-20deg);}
+25% {transform: rotateZ(-30deg);}
+30% {transform: rotateZ(-20deg);}
+35% {transform: rotateZ(0deg);}
+40% {transform: rotateZ(-20deg);}
+45% {transform: rotateZ(-25deg);}
+50% {transform: rotateZ(-30deg);}
+60% {transform: rotateZ(-10deg);}
+70% {transform: rotateZ(-20deg);}
+80% {transform: rotateZ(-30deg);}
+100%{transform: rotateZ(0deg);}
+}
+
+@-moz-keyframes myflag /* Firefox */
+{
+0%   {transform: rotateZ(-10deg);}
+20%  {transform: rotateZ(-20deg);}
+25% {transform: rotateZ(-30deg);}
+30% {transform: rotateZ(-20deg);}
+35% {transform: rotateZ(0deg);}
+40% {transform: rotateZ(-20deg);}
+45% {transform: rotateZ(-25deg);}
+50% {transform: rotateZ(-30deg);}
+60% {transform: rotateZ(-10deg);}
+70% {transform: rotateZ(-20deg);}
+80% {transform: rotateZ(-30deg);}
+100%{transform: rotateZ(0deg);}
+}
+
+@-webkit-keyframes myflag /* Safari 和 Chrome */
+{
+0%   {transform: rotateZ(-10deg);}
+20%  {transform: rotateZ(-20deg);}
+25% {transform: rotateZ(-30deg);}
+30% {transform: rotateZ(-20deg);}
+35% {transform: rotateZ(0deg);}
+40% {transform: rotateZ(-20deg);}
+45% {transform: rotateZ(-25deg);}
+50% {transform: rotateZ(-30deg);}
+60% {transform: rotateZ(-10deg);}
+70% {transform: rotateZ(-20deg);}
+80% {transform: rotateZ(-30deg);}
+100%{transform: rotateZ(0deg);}
+}
+
+@-o-keyframes myflag /* Opera */
+{
+0%   {transform: rotateZ(-10deg);}
+20%  {transform: rotateZ(-20deg);}
+25% {transform: rotateZ(-30deg);}
+30% {transform: rotateZ(-20deg);}
+35% {transform: rotateZ(0deg);}
+40% {transform: rotateZ(-20deg);}
+45% {transform: rotateZ(-25deg);}
+50% {transform: rotateZ(-30deg);}
+60% {transform: rotateZ(-10deg);}
+70% {transform: rotateZ(-20deg);}
+80% {transform: rotateZ(-30deg);}
+100%{transform: rotateZ(0deg);}
+}
+
+
+
