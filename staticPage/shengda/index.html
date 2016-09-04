@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-Type" content="text/html" charset="utf-8">
+	<meta name="keywords" content="盛大，注册" />
+	<meta name="description" content="This is sdo">
+	<meta name="author" content="by jing">
+
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<title>盛大通行证注册</title>
+</head>
+<body>
+	<div id="layoutbg">
+		<div class="wrap">
+			<div class="boxt">
+				<div class="cell_title">
+					<h2>盛大通行证</h2>
+				</div>
+			</div>
+			<div class="box">
+				<div class="mode_aimate_wrap">
+					<a class="slide_top fix" hidefocus="true">
+						<span class="down_txt">
+							安装G家
+							<span class="autoreg_txt">自动为您注册</span>
+						</span>
+						<span class="up_arr slide_togg pngfix" style="display:none;"></span>
+					</a>
+					<div class="slide_bg">
+						<div class="slide_sta_top">
+						   <input type="text" id="mobile_slide" class="s_phone" maxlength="11" placeHolder="请填写您的手机号码">
+							<a class="setup_btn">开始注册</a>
+							<div id="slide_app_mobiletip_view" class="tip_info fix">
+								<i class="pngfix"></i>
+								<span class="b_up_arr"></span>
+								<div id="slide_app_mobiletip_text" class="cell">
+									11位数字，非大陆手机
+									<a id="other_reg_country">点此注册</a>
+								</div>
+							</div>
+							<a class="more_btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+						</div>
+						<a class="slide_up_close pngfix">x</a>
+						<a id="btnRightArr">>></a>
+						<div class="tran_slide_box1 tran_slide">
+							<h2 class="tran_hd">已向您的手机发送免费短信，请继续。</h2>
+							<p class="tran_p">以下过程手机需连接互联网！</p>
+							<P class="p_icon fix">
+								<i class="dit_num digit_one fl pngfix"></i>
+								点击短信中链接，安装
+								<b>“G家”</b>
+							</P>
+							<div class="set_nosucc">
+								<span class="link_diff">短信安装遇到困难？尝试更多方式</span>
+								<a class="link_to_com">下载到电脑</a>
+								<a class="link_to_app">去APP Store</a>
+								<a class="btn_more link_to_more">更多方式..</a>
+							</div>
+							<p class="p_icon fix">
+								<i class="dit_num digit_two fl pngfix"></i>
+								手机启动
+								<b>“盛大通行证”</b>
+							</p>
+							<p class="new_pass">
+								选择
+								<b>“将手机号注册为新的通行证”</b>
+							</p>
+						</div>
+					</div>
+					<div id="div_Register" class="mod_regist">
+						<div class="mod_regist_nav">
+							<ul>
+								<li class="cur" name="registPhone">
+									<a class="btn_phone" hidefocus="true">
+										<span class="icon miniHide"></span>
+										手机注册
+									</a>
+									<span class="arrow miniHide"></span>
+								</li>
+								<li class="" name="registMail">
+									<a class="btn_mail" hidefocus="true">
+										<span class="icon miniHide"></span>
+										邮箱注册
+									</a>
+									<span class="arrow miniHide"></span>
+								</li>
+								<li class="" name="registCustom">
+									<a class="tipsExtendedBtn btn_custom" hidefocus="true">
+										<span class="icon miniHide"></span>
+										个性注册
+									</a>
+									<span class="arrow miniHide"></span>
+								</li>
+							</ul>
+						</div>
+						<div id="mod_regist_form" class="mod_regist_form registPhone"><!--registMail registCustom -->
+							<div class="call_back_tips"></div>
+							<form id="registForm" method="post" action="#">
+								<fieldset class="regist_info">
+									<div id="input_wrap_username" class="input_wrap">
+										<div class="inputBox inputError"><!-- otherMbInput -->
+											<input id="mobile" class="text mobile" type="text" tabindex="10" name="mobile" autocomplete="off" placeHolder="手机号码(必须填写)"  maxlength="11">
+											<div class="otherMb">
+												<span class="selcountry" style="display:block;">
+													<span class="selcountry_inner">
+														<span id="country_flag" class="flag">
+															<span class="talk_flag flag_us"></span>
+														</span>
+														<span id="country_code" name="country_code">+1</span>
+													</span>
+													<div id="flag_list" class="flag_list" style="display:none;">
+														<div class="country_used">
+															<h4>常用（点击选取）</h4>
+															<span class="flag_wrap">
+																<span class="talk_flag flag_hk"></span>
+																<span class="flag_name">香港 +852</span>
+															</span>
+															<span class="flag_wrap">
+																<span class="talk_flag flag_us"></span>
+																<span class="flag_name">美国 +1</span>
+															</span>
+															<span class="flag_wrap">
+																<span class="talk_flag flag_tw"></span>
+																<span class="flag_name">台湾 +886</span>
+															</span>
+															<span class="flag_wrap">
+																<span class="talk_flag flag_maly"></span>
+																<span class="flag_name">马来西亚 +60</span>
+															</span>
+															<span class="flag_wrap">
+																<span class="talk_flag flag_sin"></span>
+																<span class="flag_name">新加坡 +65</span>
+															</span>
+															<span class="flag_wrap">
+																<span class="talk_flag flag_mac"></span>
+																<span class="flag_name">澳门 +853</span>
+															</span>
+														</div>
+														<div class="country_search inputBox">
+															<a class="search_btn">搜索</a>
+															<input class="search_input" type="text" placeHolder="请输入国家/地区名称">
+														</div>
+														<ul>
+														    <li style="display: list-item;"><span class="talk_flag flag_alb"></span><span class="flag_name">阿尔巴尼亚 (Shqipëria) +355</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_alg"></span><span class="flag_name">阿尔及利亚 (‫الجزائر‬‎) +213</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_afg"></span><span class="flag_name">阿富汗 (‫افغانستان‬‎) +93</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_arg"></span><span class="flag_name">阿根廷 (Argentina) +54</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_uae"></span><span class="flag_name">阿拉伯联合酋长国 (‫الإمارات العربيّة المتّحدة‬‎) +971</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_aru"></span><span class="flag_name">阿鲁巴 (Aruba) +297</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_oman"></span><span class="flag_name">阿曼 (‫عمان‬‎) +968</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_aze"></span><span class="flag_name">阿塞拜疆 (Azərbaycan) +994</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_egy"></span><span class="flag_name">埃及 (‫مصر‬‎) +20</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_eth"></span><span class="flag_name">埃塞俄比亚 (Ityop'iya) +251</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ire"></span><span class="flag_name">爱尔兰 (Ireland) +353</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_est"></span><span class="flag_name">爱沙尼亚 (Eesti) +372</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_and"></span><span class="flag_name">安道尔 (Andorra) +376</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ang"></span><span class="flag_name">安哥拉 (Angola)+244</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_angu"></span><span class="flag_name">安圭拉 (Anguilla) +1264</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ant"></span><span class="flag_name">安提瓜和巴布达 (Antigua and Barbuda) +1268</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_aust"></span><span class="flag_name">奥地利 (Österreich) +43</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_aus"></span><span class="flag_name">澳大利亚 (Australia) +61</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mac"></span><span class="flag_name">澳门 (Macau) +853</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bar"></span><span class="flag_name">巴巴多斯 (Barbados) +1246</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bah"></span><span class="flag_name">巴哈马 (Bahamas) +1242</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_paki"></span><span class="flag_name">巴基斯坦 (‫پاکستان‬‎) +92</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_par"></span><span class="flag_name">巴拉圭 (Paraguay) +595</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_pale"></span><span class="flag_name">巴勒斯坦领土 (Palestinian Territories) +970</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bahr"></span><span class="flag_name">巴林 (‫البحرين‬‎) +973</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_pan"></span><span class="flag_name">巴拿马 (Panamá) +507</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bra"></span><span class="flag_name">巴西 (Brasil) +55</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bel"></span><span class="flag_name">白俄罗斯 (Белару́сь) +375</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ber"></span><span class="flag_name">百慕大 (Bermuda) +1441</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bul"></span><span class="flag_name">保加利亚 (България) +359</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_norm"></span><span class="flag_name">北马里亚纳群岛 (Northern Mariana Islands) +1</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ben"></span><span class="flag_name">贝宁 (Bénin) +229</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_belg"></span><span class="flag_name">比利时 (België) +32</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ice"></span><span class="flag_name">冰岛 (Ísland) +354</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_pue"></span><span class="flag_name">波多黎各 (Puerto Rico) +1787</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bos"></span><span class="flag_name">波斯尼亚和黑塞哥维那 (Bosna i Hercegovina) +387</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bol"></span><span class="flag_name">玻利维亚 (Bolivia) +591</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_beli"></span><span class="flag_name">伯利兹 (Belize) +501</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bot"></span><span class="flag_name">博茨瓦纳 (Botswana) +267</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bhu"></span><span class="flag_name">不丹 (འབྲུག་ཡུལ་) +975</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bur"></span><span class="flag_name">布基纳法索 (Burkina Faso) +226</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_buru"></span><span class="flag_name">布隆迪 (Uburundi) +257</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_equ"></span><span class="flag_name">赤道几内亚 (Guinea Ecuatorial) +240</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_den"></span><span class="flag_name">丹麦 (Danmark) +45</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ger"></span><span class="flag_name">德国 (Deutschland) +49</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tog"></span><span class="flag_name">多哥 (Togo) +228</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_dom"></span><span class="flag_name">多米尼加 (Dominica) +1767</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_domr"></span><span class="flag_name">多米尼加共和国 (Dominican Republic) +1809</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_kaz"></span><span class="flag_name">俄罗斯 (Россия) +7</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ecu"></span><span class="flag_name">厄瓜多尔 (Ecuador) +593</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_eri"></span><span class="flag_name">厄立特里亚 (Ertra) +291</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_fra"></span><span class="flag_name">法国 (France) +33</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_far"></span><span class="flag_name">法罗群岛 (Faroe Islands) +298</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_frep"></span><span class="flag_name">法属波利尼西亚 (French Polynesia) +689</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_fre"></span><span class="flag_name">法属圭亚那 (French Guiana) +594</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_fiji"></span><span class="flag_name">斐济 (Fiji) +679</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_fin"></span><span class="flag_name">芬兰 (Suomi) +358</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cap"></span><span class="flag_name">佛得角 (Cabo Verde) +238</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gam"></span><span class="flag_name">冈比亚 (Gambia) +220</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_con"></span><span class="flag_name">刚果（布） (Congo [Republic]) +242</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cong"></span><span class="flag_name">刚果（金） (Congo [DRC] +243</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_col"></span><span class="flag_name">哥伦比亚(Colombia) +57</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cos"></span><span class="flag_name">哥斯达黎加 (Costa Rica) +506</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gren"></span><span class="flag_name">格林纳达 (Grenada) +1473</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_grel"></span><span class="flag_name">格陵兰 (Greenland) +299</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_geo"></span><span class="flag_name">格鲁吉亚 (საქართველო) +995</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cub"></span><span class="flag_name">古巴 (Cuba)+53</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gua"></span><span class="flag_name">瓜德罗普岛 (Guadeloupe) +590</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_guam"></span><span class="flag_name">关岛 (Guam) +1671</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_guy"></span><span class="flag_name">圭亚那 (Guyana) +592</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_hai"></span><span class="flag_name">海地 (Haïti) +509</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_kor"></span><span class="flag_name">韩国 (한국) +82</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_net"></span><span class="flag_name">荷兰 (Nederland) +31</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_neta"></span><span class="flag_name">荷属安的列斯群岛 (Netherlands Antilles) +599</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_monte"></span><span class="flag_name">黑山共和国 (Црна Гора) +382</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_hon"></span><span class="flag_name">洪都拉斯 (Honduras) +504</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_dji"></span><span class="flag_name">吉布提 (Djibouti) +253</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_kyr"></span><span class="flag_name">吉尔吉斯斯坦 (Кыргызстан) +996</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gui"></span><span class="flag_name">几内亚 (Guinée)+224</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_guib"></span><span class="flag_name">几内亚比绍 (Guiné-Bissau) +245</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_can"></span><span class="flag_name">加拿大 (Canada) +1</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gha"></span><span class="flag_name">加纳 (Ghana) +233</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gab"></span><span class="flag_name">加蓬 (Gabon) +241</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cam"></span><span class="flag_name">柬埔寨 (Kampuchea) +855</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cze"></span><span class="flag_name">捷克共和国 (Česko) +420</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_zim"></span><span class="flag_name">津巴布韦 (Zimbabwe) +263</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_came"></span><span class="flag_name">喀麦隆 (Cameroun) +237</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_qat"></span><span class="flag_name">卡塔尔 (‫قطر‬‎) +974</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cay"></span><span class="flag_name">开曼群岛 (Cayman Islands) +1345</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_com"></span><span class="flag_name">科摩罗(Comoros) +269</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cot"></span><span class="flag_name">科特迪瓦 (Côte d’Ivoire) +225</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_kuw"></span><span class="flag_name">科威特 (‫الكويت‬‎)+965</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cro"></span><span class="flag_name">克罗地亚 (Hrvatska)+385</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ken"></span><span class="flag_name">肯尼亚 (Kenya) +254</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_lat"></span><span class="flag_name">拉脱维亚 (Latvija) +371</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_les"></span><span class="flag_name">莱索托 (Lesotho) +266</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_lao"></span><span class="flag_name">老挝人民民主共和国 (ປະຊາຊົນສປປລາວ) +856</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_leb"></span><span class="flag_name">黎巴嫩 (‫لبنان‬‎) +961</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_lit"></span><span class="flag_name">立陶宛 (Lietuva) +370</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_lib"></span><span class="flag_name">利比里亚 (Liberia) +231</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_liby"></span><span class="flag_name">利比亚 (‫ليبيا‬‎) +218</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_lie"></span><span class="flag_name">列支敦士登 (Liechtenstein) +423</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_reu"></span><span class="flag_name">留尼汪 (Réunion) +262</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_lux"></span><span class="flag_name">卢森堡 (Lëtzebuerg) +352</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_rwa"></span><span class="flag_name">卢旺达 (Rwanda) +250</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_rom"></span><span class="flag_name">罗马尼亚 (România) +40</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mad"></span><span class="flag_name">马达加斯加 (Madagasikara) +261</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mald"></span><span class="flag_name">马尔代夫 (‫ގުޖޭއްރާ ޔާއްރިހޫމްޖ‬‎) +960</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_malta"></span><span class="flag_name">马耳他 (Malta) +356</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mal"></span><span class="flag_name">马拉维 (Malawi) +265</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_maly"></span><span class="flag_name">马来西亚 (Malaysia) +60</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mali"></span><span class="flag_name">马里 (Mali) +223</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mace"></span><span class="flag_name">马其顿 (Македонија) +389</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mar"></span><span class="flag_name">马绍尔群岛 (Marshall Islands) +692</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mart"></span><span class="flag_name">马提尼克群岛 (Martinique) +596</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_maur"></span><span class="flag_name">毛里求斯 (Mauritius) +230</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mau"></span><span class="flag_name">毛里塔尼亚 (‫موريتانيا‬‎) +222</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_us"></span><span class="flag_name">美国 (United States) +1</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_asa"></span><span class="flag_name">美属萨摩亚 (American Samoa) +1684</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_viu"></span><span class="flag_name">美属维京群岛 (U.S. Virgin Islands) +1340</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mong"></span><span class="flag_name">蒙古 (Монгол Улс) +976</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_monts"></span><span class="flag_name">蒙塞拉特群岛 (Montserrat) +1664</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bang"></span><span class="flag_name">孟加拉国 (বাংলাদেশ) +880</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_per"></span><span class="flag_name">秘鲁 (Perú) +51</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mic"></span><span class="flag_name">密克罗尼西亚联邦 (Micronesia) +691</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mya"></span><span class="flag_name">缅甸 (Myanmar (Burma)) +95</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mol"></span><span class="flag_name">摩尔多瓦 (Moldova) +373</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mor"></span><span class="flag_name">摩洛哥 (‫المغرب‬‎) +212</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mon"></span><span class="flag_name">摩纳哥 (Monaco) +377</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_moz"></span><span class="flag_name">莫桑比克 (Moçambique) +258</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_mex"></span><span class="flag_name">墨西哥 (México) +52</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_nam"></span><span class="flag_name">纳米比亚 (Namibia) +264</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sa"></span><span class="flag_name">南非 (South Africa) +27</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_nau"></span><span class="flag_name">瑙鲁 (Naoero) +674</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_nep"></span><span class="flag_name">尼泊尔 (नेपाल) +977</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_nic"></span><span class="flag_name">尼加拉瓜 (Nicaragua) +505</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_nig"></span><span class="flag_name">尼日尔 (Niger) +227</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_nige"></span><span class="flag_name">尼日利亚 (Nigeria) +234</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_norw"></span><span class="flag_name">挪威 (Norge) +47</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_nor"></span><span class="flag_name">诺福克岛 (Norfolk Island) +6723</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_pala"></span><span class="flag_name">帕劳 (Belau) +680</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_por"></span><span class="flag_name">葡萄牙 (Portugal) +351</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_jap"></span><span class="flag_name">日本 +81</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_swe"></span><span class="flag_name">瑞典 (Sverige) +46</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_swi"></span><span class="flag_name">瑞士 (Schweiz) +41</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_el"></span><span class="flag_name">萨尔瓦多 (El Salvador) +503</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sam"></span><span class="flag_name">萨摩亚 (Samoa) +685</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ser"></span><span class="flag_name">塞尔维亚 (Србија) +381</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sie"></span><span class="flag_name">塞拉利昂 (Sierra Leone) +232</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sen"></span><span class="flag_name">塞内加尔 (Sénégal) +221</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cyp"></span><span class="flag_name">塞浦路斯 (Κυπρος) +357</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sey"></span><span class="flag_name">塞舌尔群岛 (Seychelles) +248</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sau"></span><span class="flag_name">沙特阿拉伯 (‫المملكة العربية السعودية‬‎) +966</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_skn"></span><span class="flag_name">圣基茨和尼维斯 (Saint Kitts and Nevis) +1869</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sl"></span><span class="flag_name">圣卢西亚 (Saint Lucia) +1758</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_san"></span><span class="flag_name">圣马力诺 (San Marino) +378</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_spm"></span><span class="flag_name">圣皮埃尔和密克隆 (Saint Pierre and Miquelon) +508</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_svg"></span><span class="flag_name">圣文森特和格林纳丁斯 (Saint Vincent and the Grenadines) +1784</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sri"></span><span class="flag_name">斯里兰卡 (Sri Lanka) +94</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_slo"></span><span class="flag_name">斯洛伐克 (Slovensko) +421</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_slov"></span><span class="flag_name">斯洛文尼亚 (Slovenija) +386</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_swa"></span><span class="flag_name">斯威士兰 (Swaziland) +268</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sud"></span><span class="flag_name">苏丹 (‫السودان‬‎) +249</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sur"></span><span class="flag_name">苏里南 (Suriname) +597</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_som"></span><span class="flag_name">索马里 (Soomaaliya) +252</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_taj"></span><span class="flag_name">塔吉克斯坦 (Тоҷикистон) +992</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tw"></span><span class="flag_name">台湾 (台灣) +886</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tha"></span><span class="flag_name">泰国 (ราชอาณาจักรไทย) +66</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tan"></span><span class="flag_name">坦桑尼亚 (Tanzania) +255</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ton"></span><span class="flag_name">汤加 (Tonga) +676</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tac"></span><span class="flag_name">特克斯和凯科斯群岛 (Turks and Caicos Islands) +1649</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tat"></span><span class="flag_name">特立尼达和多巴哥 (Trinidad and Tobago) +1868</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tun"></span><span class="flag_name">突尼斯 (‫تونس‬‎) +216</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tuv"></span><span class="flag_name">图瓦卢 (Tuvalu) +688</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_tur"></span><span class="flag_name">土耳其 (Türkiye) +90</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_turk"></span><span class="flag_name">土库曼斯坦 (Türkmenistan) +993</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_van"></span><span class="flag_name">瓦努阿图 (Vanuatu) +678</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_guat"></span><span class="flag_name">危地马拉 (Guatemala) +502</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ven"></span><span class="flag_name">委内瑞拉 (Venezuela) +58</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_bru"></span><span class="flag_name">文莱 (Brunei Darussalam) +673</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_uga"></span><span class="flag_name">乌干达 (Uganda) +256</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ukr"></span><span class="flag_name">乌克兰 (Україна) +380</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_uru"></span><span class="flag_name">乌拉圭 (Uruguay) +598</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_uzb"></span><span class="flag_name">乌兹别克斯坦 (O'zbekiston) +998</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_spa"></span><span class="flag_name">西班牙 (España) +34</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gre"></span><span class="flag_name">希腊 (Ελλάς) +30</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_hk"></span><span class="flag_name">香港 (Hong Kong) +852</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_sin"></span><span class="flag_name">新加坡 (Singapura) +65</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_newc"></span><span class="flag_name">新喀里多尼亚 (New Caledonia) +687</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_newz"></span><span class="flag_name">新西兰 (New Zealand) +64</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_hun"></span><span class="flag_name">匈牙利 (Magyarország) +36</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_syr"></span><span class="flag_name">叙利亚 (‫سوريا‬‎) +963</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_jam"></span><span class="flag_name">牙买加 (Jamaica) +1876</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_arm"></span><span class="flag_name">亚美尼亚 (Հայաստան) +374</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_yem"></span><span class="flag_name">也门 (‫اليمن‬‎) +967</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_iraq"></span><span class="flag_name">伊拉克 (‫العراق‬‎) +964</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_iran"></span><span class="flag_name">伊朗 (‫ایران‬‎) +98</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_isr"></span><span class="flag_name">以色列 (‫ישראל‬‎) +972</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ita"></span><span class="flag_name">意大利 (Italia) +39</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_ind"></span><span class="flag_name">印度 (India) +91</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_indo"></span><span class="flag_name">印度尼西亚 (Indonesia) +62</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_uk"></span><span class="flag_name">英国 (United Kingdom) +44</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_vib"></span><span class="flag_name">英属维京群岛 (British Virgin Islands) +1284</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_jor"></span><span class="flag_name">约旦 (‫الاردن‬‎) +962</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_vie"></span><span class="flag_name">越南 (Việt Nam) +84</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_zam"></span><span class="flag_name">赞比亚 (Zambia) +260</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cha"></span><span class="flag_name">乍得(Tchad) +235</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_gib"></span><span class="flag_name">直布罗陀 (Gibraltar) +350</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_chi"></span><span class="flag_name">智利(Chile) +56</span></li>
+														    <li style="display: list-item;"><span class="talk_flag flag_cen"></span><span class="flag_name">中非共和国 (République Centrafricaine) +236</span></li>
+														</ul>
+													</div>
+												</span>
+											</div>
+										</div>
+										<div id="mobileTip" class="tips">
+											<p class="tipsInfo" style="display: none;">
+												<span class="phoneerrortip">11位数字，</span>
+												<a id="js_get_flags" class="js_get_flags" hidefocus="true">
+													非中国大陆号码点击这里
+												</a>
+											</p>
+											<p class="tipsError" style="display: block;">
+												手机号码未填写
+											</p>
+											<p class="tipsBg" style="display:block"></p>
+										</div>
+									</div>
+									<div id="input_wrap_email" class="input_wrap">	
+										<div class="inputBox inputError">
+											<input class="text email" name="email" id="email" tabindex="10" autocomplete="off" type="text" placeHolder="邮箱（必须填写）">
+										</div>
+										<div class="tips" id="emailTip">
+											<p style="display: none;" class="tipsInfo">目前只支持.com .net .cn .org后缀的邮箱</p>
+											<p style="display: block;" class="tipsError">注册邮箱未填写</p>
+											<p style="display: block;" class="tipsBg"></p>
+					                    </div>
+									</div>
+									<div class="input_wrap" id="input_wrap_custom">
+										<div class="inputBox inputError">
+											<input class="text username" name="username" id="username" tabindex="10" autocomplete="off" type="text" placeHolder="个性账号（必须填写）" maxlength="16">
+										</div>
+										<div class="tips" id="usernameTip">
+											<p style="display: none;" class="tipsInfo">4-16位字母或数字，首位为字母</p>
+											<p style="display: block;" class="tipsError">个性账号未填写</p>
+											<p style="display: block;" class="tipsBg"></p>
+					                    </div>
+									</div>
+									<div id="input_wrap_smscode" class="input_wrap" style="pointer-events:none"><!--  -->
+										<div class="inputBox input_with_btn inputError">
+											<input class="text checkCode"  name="checkCode" maxlength="6" id="checkCode" tabindex="11" type="text" placeHolder="短信验证码（必须填写）"> 
+											<a href="javascript:void(0);" id="js_get_phone" class="input_expand_btn wait" hidefocus="true">免费获取验证码</a>
+										</div>
+										<div class="tips" id="checkCodeTip">
+											<p style="display: none;" class="tipsInfo">请填写短信中的6位数字，收不到请重试</p>
+											<p style="display: block;" class="tipsError">验证码未填写</p>
+											<p style="display: block;" class="tipsBg"></p>
+					                    </div>
+									</div>
+									<p class="expand_tip"></p>
+									<div id="input_wrap_password" class="input_wrap">	
+					                    <div class="inputBox inputError">
+								        	<input class="text password" name="password" id="password" tabindex="13" type="password" placeHolder="静态密码（必须填写）" maxlength="30">
+					                    </div>
+										<div class="tips" id="passwordTip">
+											<p style="display: none;" class="tipsInfo curLow">
+												<span>6~30位字母或数字,
+													<a  id="btnShowPass" name="btnShowPass" class="showPassBtn" hidefocus="true">显示密码</a>
+												</span> 
+												<span class="rankLow">弱</span> 
+												<span class="rankMiddle">中</span>
+												<span class="rankHigh">强</span>
+											</p>
+											<p style="display: block;" class="tipsError">密码未填写</p>
+											<p style="display: block;" class="tipsBg"></p>
+					                    </div>
+									</div>
+									<p class="password_tip"></p>
+									<p class="setpwd_tip"></p>
+								</fieldset>
+								<fieldset style="display: none;" class="verifyCode">
+										<div class="inputBox inputError">
+											<input class="text validateCode" name="validateCode" id="validateCode" tabindex="30" type="text" placeHolder="验证码（必须填写）"> 
+											<span class="imgCodeBg"> 
+												<img class="" id="imgCode" src="images/show_img.fcgi.jpg">
+											</span> 
+											<a class="reVerify" id="reVerify" hidefocus="true" title="看不清？点此刷新验证码">刷新验证码</a>
+										</div>
+										<div class="tips" id="validateCodeTip">
+											<p style="display: none;" class="tipsInfo">图片内字符，不分大小写</p>
+											<p style="display: block;" class="tipsError">验证码不能为空</p>
+											<p style="display: block;" class="tipsBg"></p>
+					                	</div>
+								</fieldset>
+								<div id="mod_regist_form_submit" class="mod_regist_form_submit">
+									<a >用户服务协议</a>
+									<input class="submit_btn" id="submit" tabindex="40" value="接受协议并注册" hidefocus="true" type="button">
+								</div>
+							</form>
+						</div>
+						<div class="mod_regist_border1"></div>
+						<div class="mod_regist_border2"></div>
+					</div>
+				</div>
+				<div class="cell_side_bar">
+					<div class="cell_guide_btn">
+						<a id="linkShowContrast">哪种注册适合我</a>
+					</div>
+					<div class="cell_bner">
+						<a id="register_app_1" hidefocus="true">
+							<img src="images/app_ad_401.jpg" width="300px" height="200px">
+						</a>
+					</div>
+					<div class="cell_feed_back"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="http://www.snda.com" target="_blank" hidefocus="true">盛大网络</a> 
+		旗下网站 上海盛展网络科技有限公司 版权所有<br>
+		24小时客服热线：95105222；未开通95地区或海外用户请拨 +86-21-50504728
+	</div>
+</body>
+</html>
