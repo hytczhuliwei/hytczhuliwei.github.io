@@ -1,12 +1,3 @@
-# Welcome to Jekyll!
-
-# Website settings
-title: "柠檬水"
-description: "blog,use Jekyll and github pages."
-keywords: "zhuliwei,柠檬水,blog,Jekyll,github,gh-pages"
-baseurl: "/"
-url: "https://hytczhuliwei.github.io/"
-# url: "http://127.0.0.1:4000"
 
 # blog img path
 img_path: 'static/img/landing/avatar_self.jpg'
@@ -22,12 +13,6 @@ author:
   head_img: 'static/img/landing/avatar_self.jpg'
 
 # social link
-jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
 
 # landing page
 landing:
