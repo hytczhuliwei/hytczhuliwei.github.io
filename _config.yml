@@ -45,10 +45,10 @@ project:
     name: '24tidy'
     url: 'https://m.24tidy.com/'
     img: 'static/img/landing/24tidy.png'
-  jalpc:
-    name: 'Jalpc'
-    url: '/Jack614/jalpc_jekyll_theme'
-    img: 'static/img/landing/jekyll.png'
+  staticPage:
+    name: '静态页面'
+    url: 'staticPage/'
+    img: 'static/img/landing/staticPage.jpg'
   angularjs:
     name: 'Jalpc-A'
     url: '/Jack614/Jalpc-A'

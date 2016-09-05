@@ -23,13 +23,14 @@ permalink: /
                         <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
                         <li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li>
                         <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
+                        <!--
                         <li>
                             <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
                         <li>
                             <a class="btn btn-sm set_cn"><img src="{{"static/img/flags/China.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
-
+                        -->
                     </ul>
                 </div>
             </div>
@@ -289,27 +290,9 @@ permalink: /
 
             <div class="col-sm-6 wow fadeInRight">
                 <div class="team-member">
-                    <img src="{{ site.project.jalpc.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
-                    <h4><a href="{{ site.project.jalpc.url | prepend: 'https://github.com' }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.jalpc.name }}</a></h4>
-                    <p><span data-i18n="projects.jalpc">Jalpc is a simple, beautiful and swift theme for Jekyll. It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.</span></p>
-                    <ul class="list-inline">
-                        <li>
-                            <a class="github-button" href="{{ site.project.jalpc.url | prepend: 'https://github.com'}}"
-                            data-icon="octicon-star"
-                            data-count-href="{{ site.project.jalpc.url | append: '/stargazers' }}"
-                            data-count-api="{{ site.project.jalpc.url | prepend: '/repos' | append: '#stargazers_count' }}"
-                            data-count-aria-label="# stargazers on GitHub"
-                            aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                        </li>
-                        <li>
-                            <a class="github-button" href="{{ site.project.jalpc.url | prepend: 'https://github.com'}}"
-                            data-icon="octicon-fork"
-                            data-count-href="{{ site.project.jalpc.url | append: '/forks' }}"
-                            data-count-api="{{ site.project.jalpc.url | prepend: '/repos' | append: '#forks_count' }}"
-                            data-count-aria-label="# forks on GitHub"
-                            aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                        </li>
-                    </ul>
+                    <img src="{{ site.project.staticPage.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                    <h4><a href="{{ site.project.staticPage.url | prepend: 'https://hytczhuliwei.github.io/' }}" target="blank" style="color: #1ab394" class="navy">{{ site.project.staticPage.name }}</a></h4>
+                    <p><span data-i18n="projects.staticPage">一些练习的静态页面</span></p>
                 </div>
             </div>
         </div>
