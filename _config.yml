@@ -1,9 +1,9 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "柠檬水"
+title: "柠檬屋"
 description: "blog,use Jekyll and github pages."
-keywords: "zhuliwei,柠檬水,blog,Jekyll,github,gh-pages"
+keywords: "zhuliwei,柠檬屋,blog,Jekyll,github,gh-pages"
 baseurl: "/"
 url: "https://hytczhuliwei.github.io/"
 # url: "http://127.0.0.1:4000"
@@ -61,12 +61,10 @@ project:
 # blog index
 index:
   home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
   html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
+  css: 'CSS'
+  javascript: 'javascript'
+  jquery: 'jquery'
 
 # donate
 donate:
