@@ -56,6 +56,12 @@
                         <li>
                             {% endif %}
                             <a class="page-scroll" href="/jquery/">{{ site.index.jquery }}</a></li>
+                        {% if page.title == site.index.other %}
+                        <li class="active">
+                            {% else %}
+                        <li>
+                            {% endif %}
+                            <a class="page-scroll" href="/other/">{{ site.index.other }}</a></li>
                     </ul>
                 </div>
             </div>

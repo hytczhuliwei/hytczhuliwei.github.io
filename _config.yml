@@ -49,14 +49,6 @@ project:
     name: '静态页面'
     url: 'staticPage/'
     img: 'static/img/landing/staticPage.jpg'
-  angularjs:
-    name: 'Jalpc-A'
-    url: '/Jack614/Jalpc-A'
-    img: 'static/img/landing/angularjs.png'
-  Rsser:
-    name: 'Rsser'
-    url: '/Jack614/Rsser'
-    img: 'static/img/landing/rsser.png'
 
 # blog index
 index:
@@ -65,6 +57,7 @@ index:
   css: 'CSS'
   javascript: 'javascript'
   jquery: 'jquery'
+  other: 'other'
 
 # donate
 donate:
