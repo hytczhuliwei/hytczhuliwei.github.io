@@ -16,7 +16,7 @@ icon: icon-css
 举例来说，如果想让背景图片跟右边缘保持20px的偏移量，同时跟底部保持10px的偏移量，代码如下：
 
 ``` stylus
-background:url("image src") no-repeat;
+background:url("image src") no-repeat green;
 background-position: right 20px bottom 10px;
 ```
 ![Alt text](/blogImages/css/background-position-rightbottom.png)
