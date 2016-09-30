@@ -27,6 +27,7 @@ background-image:
 		linear-gradient(90deg, #655 41px, transparent 0);
 background-size: 41px 100%, 61px 100%, 83px 100%;
 ```
+![Alt text](/blogImages/css/background-random1.png)
 
 
 从上面的代码我们得到一个平铺开 41x61x83=207583px大小的不重复背景，这已经超过我们已有的所有屏幕分辨率。因此我们可以认为他就是随机的背景。
