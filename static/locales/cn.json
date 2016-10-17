@@ -21,9 +21,7 @@
   "projects":{
     "my_projects": "我的项目",
     "24tidy": "该项目实现了APP中的基本功能，满足用户的下单需求。",
-    "staticPage": "一些练习的静态页面",
-    "angularjs": "这是一个Angularjs写的前端应用，使用Jelyll部署在github的gh-pages上，后台使用Leancloud，你也可以使用Parse。",
-    "rsser": "Rsser是一个Ionic应用，在这个应用下，我们可以自由的阅读新闻和文章，你可以从给定的列表中添加rss地址也可以手动添加。"
+    "staticPage": "一些静态页面，主要是开始学习的时候模仿的一些网站，实现其中的效果，缺点是没有适配"
   },
   "career":{
     "my_career": "职业生涯",
